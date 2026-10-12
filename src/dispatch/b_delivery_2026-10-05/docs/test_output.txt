@@ -1,0 +1,32 @@
+test_crossed_quantiles_rejected (test_b_complete.CompleteBTests.test_crossed_quantiles_rejected) ... ok
+test_failed_measured_correction_has_explicit_rule_fallback (test_b_complete.CompleteBTests.test_failed_measured_correction_has_explicit_rule_fallback) ... ok
+test_final_forecast_generator_validation_is_exhausted (test_b_complete.CompleteBTests.test_final_forecast_generator_validation_is_exhausted) ... ok
+test_future_actual_change_does_not_change_first_plan (test_b_complete.CompleteBTests.test_future_actual_change_does_not_change_first_plan) ... ok
+test_impossible_reserve_uses_explicit_soft_shortfall (test_b_complete.CompleteBTests.test_impossible_reserve_uses_explicit_soft_shortfall) ... ok
+test_no_incumbent_falls_back_without_dropping_step (test_b_complete.CompleteBTests.test_no_incumbent_falls_back_without_dropping_step) ... ok
+test_persistence_only_uses_completed_observations (test_b_complete.CompleteBTests.test_persistence_only_uses_completed_observations) ... ok
+test_reserve_monotonic_and_capped (test_b_complete.CompleteBTests.test_reserve_monotonic_and_capped) ... ok
+test_tight_inventory_still_allows_next_rule_fallback (test_b_complete.CompleteBTests.test_tight_inventory_still_allows_next_rule_fallback) ... ok
+test_blackout_correction_does_not_invent_customer_load (test_rolling_dispatch.ActualCorrectionTests.test_blackout_correction_does_not_invent_customer_load) ... ok
+test_96_step_negative_net_load_is_valid (test_rolling_dispatch.ForecastContractTests.test_96_step_negative_net_load_is_valid) ... ok
+test_incomplete_window_rejected (test_rolling_dispatch.ForecastContractTests.test_incomplete_window_rejected) ... ok
+test_charge_discharge_switch_needs_transition (test_rule_dispatch.DeviceBoundaryTests.test_charge_discharge_switch_needs_transition) ... ok
+test_electrolyzer_ramps_down_in_deficit (test_rule_dispatch.DeviceBoundaryTests.test_electrolyzer_ramps_down_in_deficit) ... ok
+test_empty_battery_and_tank_record_unserved (test_rule_dispatch.DeviceBoundaryTests.test_empty_battery_and_tank_record_unserved) ... ok
+test_fuel_cell_ramps_down_when_demand_drops (test_rule_dispatch.DeviceBoundaryTests.test_fuel_cell_ramps_down_when_demand_drops) ... ok
+test_full_battery_and_tank_record_spill (test_rule_dispatch.DeviceBoundaryTests.test_full_battery_and_tank_record_spill) ... ok
+test_maximum_power_and_minimum_on_are_enforced (test_rule_dispatch.DeviceBoundaryTests.test_maximum_power_and_minimum_on_are_enforced) ... ok
+test_nan_and_infinity_rejected_in_state_and_flow (test_rule_dispatch.DeviceBoundaryTests.test_nan_and_infinity_rejected_in_state_and_flow) ... ok
+test_preexisting_infeasible_state_is_reported (test_rule_dispatch.DeviceBoundaryTests.test_preexisting_infeasible_state_is_reported) ... ok
+test_quarter_hour_energy_and_hydrogen_conversion (test_rule_dispatch.DeviceBoundaryTests.test_quarter_hour_energy_and_hydrogen_conversion) ... ok
+test_ramp_near_inventory_bounds_keeps_future_braking_room (test_rule_dispatch.DeviceBoundaryTests.test_ramp_near_inventory_bounds_keeps_future_braking_room) ... ok
+test_startup_respects_ramp_and_minimum_on_power (test_rule_dispatch.DeviceBoundaryTests.test_startup_respects_ramp_and_minimum_on_power) ... ok
+test_sudden_renewable_loss_keeps_ramp_down_physically_supplied (test_rule_dispatch.DeviceBoundaryTests.test_sudden_renewable_loss_keeps_ramp_down_physically_supplied) ... ok
+test_generated_week_runs_without_external_dataset (test_rule_dispatch.InputAndWeekTests.test_generated_week_runs_without_external_dataset) ... ok
+test_input_rejects_missing_nan_infinity_negative_duplicate_and_gap (test_rule_dispatch.InputAndWeekTests.test_input_rejects_missing_nan_infinity_negative_duplicate_and_gap) ... ok
+test_real_week_has_672_steps_and_continuous_states (test_rule_dispatch.InputAndWeekTests.test_real_week_has_672_steps_and_continuous_states) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.790s
+
+OK

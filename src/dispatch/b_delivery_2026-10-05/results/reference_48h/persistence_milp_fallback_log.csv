@@ -1,0 +1,4 @@
+timestamp_utc,strategy,event,fallback,actual_correction,reason,mip_gap,reserve_shortfall_kwh
+2019-06-15 08:30:00+00:00,persistence_milp,time_limit_feasible,False,False,,0.020402795682225673,0.0
+2019-06-15 09:00:00+00:00,persistence_milp,time_limit_feasible,False,False,,0.01750834213688036,0.0
+2019-06-15 14:30:00+00:00,persistence_milp,time_limit_feasible,False,False,,0.020604496592384617,0.0
