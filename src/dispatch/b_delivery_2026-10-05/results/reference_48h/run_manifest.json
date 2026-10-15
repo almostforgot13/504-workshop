@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "completed_strategies": [
+    "rule",
+    "persistence_milp",
+    "q50_milp",
+    "quantile_reserve_milp"
+  ],
+  "start_utc": "2019-06-15T00:00:00+00:00",
+  "steps": 192,
+  "actual": "data\\processed\\A_15min_virtual_2017_2019.csv",
+  "forecast": "D:\\Codex\\2026-09-29\\github-plugin-github-openai-curated-remote\\work\\a_48h_forecasts.csv",
+  "configuration": {
+    "status": "provisional scenario weights; team approval pending; frozen before this run",
+    "time_limit_seconds": 2.0,
+    "mip_relative_gap": 0.02,
+    "objective_weights": {
+      "grid": 1.0,
+      "curtailment": 0.1,
+      "unserved": 100.0,
+      "throughput": 0.001,
+      "reserve_shortfall": 20.0
+    },
+    "reserve": {
+      "min_kw": 0.0,
+      "max_kw": 300.0,
+      "width_scale": 0.5,
+      "duration_h": 1.0
+    },
+    "terminal_policy": "all device powers zero at planning horizon end; report actual inventory depletion separately",
+    "persistence": "last fully observed 15-minute net load repeated for all 96 steps",
+    "test_start_utc": "2019-06-15T00:00:00Z",
+    "test_steps": 192,
+    "total_cost": null
+  },
+  "parameters_sha256": "8db5b77de64b0182a25ec44d0e98e256445eb81156c6916dc1941d75fe309b35",
+  "config_sha256": "e052cc020ea8e85ed1c1156265fce7e81ebde7943af1099ffe397aa408d3a847"
+}

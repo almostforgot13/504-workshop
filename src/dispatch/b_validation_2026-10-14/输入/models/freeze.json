@@ -1,0 +1,29 @@
+{
+  "data_sha256": "b7bc9963e5bba2faf663b602479115a211eefbe8f6326166d1b8a792c42ee62a",
+  "config_sha256": "5a614c6ce0326ec03055da6925e15dc097daf4038b7797db38a6e6f7d722ad1e",
+  "artifacts": {
+    "calibration.json": "f5669bed62fd735d753a90f3a7e3cb024a9db092ba5e775878aeac85dc9f8b9a",
+    "fusion.json": "94e80cbc7d75228bde94f65a0b2dea0d1ce6a348c7c26368b90764c09eca4924",
+    "lgbm_q10.txt": "9733c037713c31b5a13991ff10baad11f3bfac7e295b110653234727a1630e50",
+    "lgbm_q50.txt": "59d6d109c84a6e33b2bc6005c0a7bf240ac1b7a89e6062708220d745c8173a57",
+    "lgbm_q90.txt": "9a5185f01e337ab5b7a234df9ff8652eff84858e3811fb4e4b66d789ebc01fc9",
+    "tcn.pt": "2c997b67f08ff62fa70bf8190af0b87a6a92f55670e44838720b7c38631221b2",
+    "training.json": "701b4748f200ea6939b330311e672c267deb5d857079035dd20d52f49fc6706a"
+  },
+  "test_weeks": [
+    "2019-01-14T00:00:00Z",
+    "2019-04-15T00:00:00Z",
+    "2019-07-15T00:00:00Z",
+    "2019-10-14T00:00:00Z"
+  ],
+  "no_post_test_parameter_changes": true,
+  "source_artifacts": {
+    "calibration.py": "6823012c2850caba76085932cf1946f4efde3267142ee24055a50edf6dac9dcc",
+    "data.py": "abd47aaf272d58ebf395f2d04365b99bc7e9b9b900dc9968db54a9d0f1be5a4f",
+    "device_model.py": "c0101a6bc80d1cb2bb58af44e22a398b798961a7e2cc5227e4994d5f7f79203d",
+    "dispatch.py": "2350d0124612d27e268d953d66c13b6774760e4a152e8b0316feae1a27b876c3",
+    "experiments.py": "a8d5a8abd4dfd8eef4cdc5908cd66357197d01150f5c9d2ab2a27d5050d2f5dd",
+    "forecast.py": "b80c51a5536d3733d0001608b311987c0c74af336631953c771515971adcd989"
+  },
+  "solver_native_threads": 1
+}

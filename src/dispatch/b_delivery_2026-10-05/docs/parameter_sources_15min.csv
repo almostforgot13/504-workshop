@@ -1,0 +1,23 @@
+component,parameter,value,unit,status,source_or_derivation,review_needed
+simulation,time_step_h,0.25,h,interface requirement,team 15-minute decision,yes
+battery,energy_capacity_kwh,2000,kWh,scenario assumption,unchanged from one-hour candidate,yes
+battery,charge_discharge_power_max_kw,500,kW,scenario assumption,unchanged from one-hour candidate,yes
+battery,round_trip_efficiency,0.85,p.u.,reference,NREL 2024 ATB battery storage,yes
+battery,soc_min_max,0.15 to 0.95,p.u.,reference,NREL SAM default range,yes
+battery,initial_soc,0.50,p.u.,scenario assumption,unchanged from one-hour candidate,yes
+battery,net_power_ramp,500,kW/h,scenario assumption,per-step signed-power change <= 125 kW,yes
+electrolyzer,rated_min_on_power,300 / 30,kW,scenario assumption,unchanged from one-hour candidate,yes
+electrolyzer,specific_electricity,55,kWh/kg,reference,US DOE 2022 PEM system status,yes
+electrolyzer,power_ramp,300,kW/h,scenario assumption,per-step change <= 75 kW,yes
+hydrogen_tank,capacity_initial_min_max,600 / 300 / 60 / 540,kg,scenario assumption,unchanged from one-hour candidate,yes
+hydrogen_tank,usable_inventory,480,kg,derived,540 - 60,yes
+hydrogen_tank,full_inventory_full_power_duration,17.16,h,derived,480 * 17.875 / 500; excludes ramps and startup,yes
+hydrogen_tank,initial_inventory_full_power_duration,8.58,h,derived,(300 - 60) * 17.875 / 500; excludes ramps and startup,yes
+fuel_cell,rated_min_on_power,500 / 50,kW,scenario assumption,unchanged from one-hour candidate,yes
+fuel_cell,electric_output_per_kg,17.875,kWh/kg,derived,55 * 0.325 Rye hydrogen round-trip efficiency,yes
+fuel_cell,power_ramp,500,kW/h,scenario assumption,per-step change <= 125 kW,yes
+grid,import_limit,500,kW,scenario assumption,unchanged from one-hour candidate,yes
+sources,NREL_ATB,https://atb.nrel.gov/electricity/2024/2023/utility-scale_battery_storage,,URL,NREL battery duration and efficiency,no
+sources,NREL_SAM,https://sam.nrel.gov/images/web_page_files/sam-help-2024-12-12.pdf,,URL,NREL battery SOC range,no
+sources,DOE_PEM,https://stage.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis,,URL,DOE electrolyzer specific electricity,no
+sources,Rye,https://github.com/AneoGroup/tronderenergi-ai-hackathon-2021,,URL,Rye hydrogen round-trip efficiency,no

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "steps": 96,
+  "checks": 2690,
+  "violation_counts": {},
+  "examples": [],
+  "max_errors": {
+    "balance_kw": 2.2737367544323206e-13,
+    "battery_accounting_kwh": 0,
+    "hydrogen_accounting_kg": 0
+  },
+  "operating_cost_cny": 962.294465840072,
+  "replacement_cny": 29.573309117600687,
+  "adjusted_cost_cny": 991.8677749576727,
+  "terminal_battery_kwh": 965.9184452301298,
+  "terminal_hydrogen_kg": 299.99999999999994,
+  "tolerance": 1e-05,
+  "stop_inventory_checked": true,
+  "actual_source_checked": true
+}

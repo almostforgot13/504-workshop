@@ -1,0 +1,132 @@
+[
+  {
+    "case": "surplus",
+    "net_kw": [
+      -250,
+      -100,
+      0
+    ],
+    "initial_E_kwh": 1000,
+    "initial_H_kg": 300,
+    "enumerated_modes": 216,
+    "feasible_modes": 72,
+    "reference_objective": 1.8625,
+    "milp_objective": 1.8624999999999903,
+    "absolute_difference": 9.769962616701378e-15,
+    "mip_gap": 0.0,
+    "passed": true,
+    "first_action": {
+      "grid": 0.0,
+      "charge": 125.0,
+      "discharge": 0.0,
+      "electrolyzer": 75.0,
+      "fuel_cell": 0.0,
+      "curtailment": 50.0,
+      "unserved": 0.0
+    }
+  },
+  {
+    "case": "deficit",
+    "net_kw": [
+      700,
+      800,
+      650
+    ],
+    "initial_E_kwh": 1000,
+    "initial_H_kg": 300,
+    "enumerated_modes": 216,
+    "feasible_modes": 72,
+    "reference_objective": 5483.900452488687,
+    "milp_objective": 5483.900452488689,
+    "absolute_difference": 1.8189894035458565e-12,
+    "mip_gap": 0.0,
+    "passed": true,
+    "first_action": {
+      "grid": 500.0,
+      "charge": 0.0,
+      "discharge": 125.0,
+      "electrolyzer": 0.0,
+      "fuel_cell": 75.0,
+      "curtailment": 0.0,
+      "unserved": 0.0
+    }
+  },
+  {
+    "case": "sign_switch",
+    "net_kw": [
+      -250,
+      600,
+      0
+    ],
+    "initial_E_kwh": 1000,
+    "initial_H_kg": 300,
+    "enumerated_modes": 216,
+    "feasible_modes": 72,
+    "reference_objective": 117.20689968815057,
+    "milp_objective": 117.20689968814882,
+    "absolute_difference": 1.7479351299698465e-12,
+    "mip_gap": 0.0,
+    "passed": true,
+    "first_action": {
+      "grid": 0.0,
+      "charge": 67.56756756756755,
+      "discharge": 0.0,
+      "electrolyzer": 75.0,
+      "fuel_cell": 0.0,
+      "curtailment": 107.43243243243245,
+      "unserved": 0.0
+    }
+  },
+  {
+    "case": "near_empty",
+    "net_kw": [
+      650,
+      650,
+      650
+    ],
+    "initial_E_kwh": 310,
+    "initial_H_kg": 60.5,
+    "enumerated_modes": 216,
+    "feasible_modes": 40,
+    "reference_objective": 21642.706380898253,
+    "milp_objective": 21642.706380898224,
+    "absolute_difference": 2.9103830456733704e-11,
+    "mip_gap": 0.0,
+    "passed": true,
+    "first_action": {
+      "grid": 500.0,
+      "charge": 0.0,
+      "discharge": 36.878177925245836,
+      "electrolyzer": 43.84615384615287,
+      "fuel_cell": 0.0,
+      "curtailment": 0.0,
+      "unserved": 156.96797592090704
+    }
+  },
+  {
+    "case": "near_full",
+    "net_kw": [
+      -500,
+      -300,
+      -200
+    ],
+    "initial_E_kwh": 1890,
+    "initial_H_kg": 539.8,
+    "enumerated_modes": 216,
+    "feasible_modes": 64,
+    "reference_objective": 11.979604313271903,
+    "milp_objective": 11.979604312603971,
+    "absolute_difference": 6.67931487896567e-10,
+    "mip_gap": 0.0,
+    "passed": true,
+    "first_action": {
+      "grid": 0.0,
+      "charge": 43.38609165279195,
+      "discharge": 0.0,
+      "electrolyzer": 0.0,
+      "fuel_cell": 0.0,
+      "curtailment": 456.61390834720805,
+      "unserved": 0.0
+    }
+  }
+]

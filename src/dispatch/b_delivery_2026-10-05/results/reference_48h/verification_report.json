@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "strategies": [
+    {
+      "strategy": "rule",
+      "passed": true,
+      "rows_checked": 192,
+      "constraint_violations": 0,
+      "max_balance_residual_kw": 2.2737367544323206e-13,
+      "errors": []
+    },
+    {
+      "strategy": "persistence_milp",
+      "passed": true,
+      "rows_checked": 192,
+      "constraint_violations": 0,
+      "max_balance_residual_kw": 4.547473508864641e-13,
+      "errors": []
+    },
+    {
+      "strategy": "q50_milp",
+      "passed": true,
+      "rows_checked": 192,
+      "constraint_violations": 0,
+      "max_balance_residual_kw": 4.547473508864641e-13,
+      "errors": []
+    },
+    {
+      "strategy": "quantile_reserve_milp",
+      "passed": true,
+      "rows_checked": 192,
+      "constraint_violations": 0,
+      "max_balance_residual_kw": 4.547473508864641e-13,
+      "errors": []
+    }
+  ],
+  "total_rows_checked": 768
+}

@@ -1,0 +1,183 @@
+{
+  "data_sha256": "b7bc9963e5bba2faf663b602479115a211eefbe8f6326166d1b8a792c42ee62a",
+  "experiment_config": {
+    "seed": 42,
+    "train_start": "2017-01-01T00:00:00Z",
+    "train_end": "2018-01-01T00:00:00Z",
+    "selection_start": "2018-01-01T00:00:00Z",
+    "selection_end": "2018-07-01T00:00:00Z",
+    "calibration_start": "2018-07-01T00:00:00Z",
+    "calibration_end": "2019-01-01T00:00:00Z",
+    "test_weeks": [
+      "2019-01-14T00:00:00Z",
+      "2019-04-15T00:00:00Z",
+      "2019-07-15T00:00:00Z",
+      "2019-10-14T00:00:00Z"
+    ],
+    "train_stride": 4,
+    "validation_stride": 16,
+    "calibration_stride": 4,
+    "tcn_channels": 12,
+    "tcn_epochs": 16,
+    "tcn_patience": 4,
+    "batch_size": 64,
+    "threads": 4,
+    "alpha": 0.2,
+    "solver_time_limit_s": 0.25,
+    "solver_mip_gap": 0.01,
+    "reserve_response_steps": 4,
+    "sustained_risk_steps": 24,
+    "risk_scale": 1.0,
+    "costs": {
+      "status": "explicit illustrative contest assumptions; not measured tariffs or approved team costs",
+      "currency": "CNY",
+      "tariff_timezone": "Europe/Berlin",
+      "valley_price_per_kwh": 0.45,
+      "normal_price_per_kwh": 0.8,
+      "peak_price_per_kwh": 1.2,
+      "unserved_per_kwh": 100.0,
+      "curtailment_per_kwh": 0.05,
+      "battery_throughput_per_kwh": 0.02,
+      "hydrogen_device_throughput_per_kwh": 0.005,
+      "electrolyzer_start": 0.3,
+      "fuel_cell_start": 0.5,
+      "reserve_shortfall_per_kw_interval": 0.5,
+      "terminal_replacement_price_per_kwh": 0.8
+    },
+    "terminal_policy": "same initial-inventory soft targets for every strategy; deficit replacement accounting, no surplus credit; not physical restoration",
+    "settlement_policy": "interval-average measured net power for common recourse; not validated subinterval real-time control",
+    "methods": [
+      "A_rule",
+      "B_lgbm_q50",
+      "C_tcn_blend_q50",
+      "D_raw_reserve",
+      "E_cqr_reserve"
+    ]
+  },
+  "train_origins": 8569,
+  "selection_origins": 1081,
+  "calibration_origins": 4393,
+  "best_tcn_epoch": 9,
+  "tcn_training_seconds": 876.1644677000004,
+  "lgbm_training_seconds": 50.98901470000055,
+  "history": [
+    {
+      "epoch": 1,
+      "train_pinball_kw": 76.31999360681537,
+      "selection_pinball_kw": 71.6744422038688
+    },
+    {
+      "epoch": 2,
+      "train_pinball_kw": 66.68163745064719,
+      "selection_pinball_kw": 68.69852896367624
+    },
+    {
+      "epoch": 3,
+      "train_pinball_kw": 62.91084477481874,
+      "selection_pinball_kw": 66.2294925651525
+    },
+    {
+      "epoch": 4,
+      "train_pinball_kw": 59.757765238013185,
+      "selection_pinball_kw": 64.73296172864362
+    },
+    {
+      "epoch": 5,
+      "train_pinball_kw": 57.20260718282062,
+      "selection_pinball_kw": 63.37599822100256
+    },
+    {
+      "epoch": 6,
+      "train_pinball_kw": 54.79739255311374,
+      "selection_pinball_kw": 62.8249909872737
+    },
+    {
+      "epoch": 7,
+      "train_pinball_kw": 53.16175202631984,
+      "selection_pinball_kw": 62.69901461020593
+    },
+    {
+      "epoch": 8,
+      "train_pinball_kw": 51.7080892051035,
+      "selection_pinball_kw": 63.02958820842972
+    },
+    {
+      "epoch": 9,
+      "train_pinball_kw": 50.97552665942152,
+      "selection_pinball_kw": 62.3382122888605
+    },
+    {
+      "epoch": 10,
+      "train_pinball_kw": 50.007196863991936,
+      "selection_pinball_kw": 63.977883011427
+    },
+    {
+      "epoch": 11,
+      "train_pinball_kw": 49.365509243175076,
+      "selection_pinball_kw": 62.59777927591218
+    },
+    {
+      "epoch": 12,
+      "train_pinball_kw": 49.02608445259226,
+      "selection_pinball_kw": 63.62077734240669
+    },
+    {
+      "epoch": 13,
+      "train_pinball_kw": 47.963877847434475,
+      "selection_pinball_kw": 64.0195142241928
+    }
+  ],
+  "selection_lgbm": {
+    "pairs": 103776,
+    "MAE_kw": 199.92324439669216,
+    "RMSE_kw": 269.5021233346129,
+    "coverage": 0.6933587727412889,
+    "width_kw": 532.4417539286615,
+    "interval_score_kw": 950.4902214206653,
+    "pinball_0.1": 50.5833587913809,
+    "pinball_0.5": 99.96162219834608,
+    "pinball_0.9": 44.465663350685624
+  },
+  "selection_tcn_raw": {
+    "pairs": 103776,
+    "MAE_kw": 195.01063537597656,
+    "RMSE_kw": 260.0038146972656,
+    "coverage": 0.7399302343509097,
+    "width_kw": 560.1369018554688,
+    "interval_score_kw": 895.0932006835938,
+    "pinball_0.1": 47.21455001831055,
+    "pinball_0.5": 97.50531768798828,
+    "pinball_0.9": 42.294769287109375
+  },
+  "selection_tcn_blend": {
+    "pairs": 103776,
+    "MAE_kw": 193.0044237054327,
+    "RMSE_kw": 258.8183658529966,
+    "coverage": 0.730804810360777,
+    "width_kw": 550.5570284732845,
+    "interval_score_kw": 887.7800741325962,
+    "pinball_0.1": 46.836383499688154,
+    "pinball_0.5": 96.50221185271636,
+    "pinball_0.9": 41.94162391357147
+  },
+  "calibration_fit_diagnostic": {
+    "pairs": 421728,
+    "MAE_kw": 164.88756597520754,
+    "RMSE_kw": 220.56145945883966,
+    "coverage": 0.8037194589877836,
+    "width_kw": 547.7006143534275,
+    "interval_score_kw": 745.8963726915413,
+    "pinball_0.1": 40.12079972873123,
+    "pinball_0.5": 82.44378298760377,
+    "pinball_0.9": 35.051161973268954
+  },
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "lightgbm": "4.7.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1"
+  },
+  "test_tuning": false,
+  "historical_2019_results_previously_seen": true,
+  "calibration_diagnostic_is_out_of_sample_test": false
+}

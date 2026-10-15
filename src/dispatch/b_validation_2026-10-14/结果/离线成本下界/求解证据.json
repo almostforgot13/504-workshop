@@ -1,0 +1,32 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "wall_seconds": 0.4341121999996176,
+  "objective_cny": 236.74770402752816,
+  "dual_bound_cny": 236.74770402752816,
+  "mip_gap": 0.0,
+  "reference_type": "Perfect-information relaxation. Removed future stopping-inventory requirements and final-power-zero requirements. Same actual load, ratings, ramps, mutual exclusion, tariffs, startup charges and deficit replacement accounting.",
+  "not_online_controller": true,
+  "not_claimed_globally_optimal_for_original_controller": true,
+  "steps": 96,
+  "executed_trajectory_membership": [
+    {
+      "strategy": "C_tcn_blend_q50",
+      "reference_constraints_satisfied": true,
+      "max_violation": 1.9826075003948063e-08,
+      "same_objective_cost_cny": 579.9313849883378
+    },
+    {
+      "strategy": "D_raw_reserve",
+      "reference_constraints_satisfied": true,
+      "max_violation": 6.16751094639767e-12,
+      "same_objective_cost_cny": 628.854868093704
+    }
+  ],
+  "relaxed_physics_audit_passed": true,
+  "original_stop_audit_passed": true,
+  "original_stop_violations": {},
+  "unserved_kwh": 0.0,
+  "audited_adjusted_cost_cny": 236.7477040275361,
+  "objective_accounting_difference": 7.929656931082718e-12
+}

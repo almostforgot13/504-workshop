@@ -1,0 +1,20 @@
+{
+  "solver_status": 0,
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_demo_units": 8859.5502202395,
+  "mip_gap": 0.0,
+  "rows": 96,
+  "time_step_h": 0.25,
+  "objective_weights_per_kwh": {
+    "grid": 1,
+    "curtailment": 0.1,
+    "unserved": 100
+  },
+  "physical_check": "passed",
+  "max_balance_residual_kw": 4.774847184307873e-12,
+  "grid_import_kwh": 8859.550220239498,
+  "curtailment_kwh": 0.0,
+  "unserved_kwh": 0.0,
+  "terminal_battery_kwh": 300.0,
+  "terminal_hydrogen_kg": 60.0
+}

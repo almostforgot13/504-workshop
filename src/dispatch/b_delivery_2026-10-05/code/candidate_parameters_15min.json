@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "version": "0.3-candidate-15min",
+    "scenario": "1 MW mean-load virtual weak-grid microgrid",
+    "status": "A/C and advisor review pending",
+    "time_step_h": 0.25,
+    "units": {
+      "power": "kW",
+      "energy": "kWh",
+      "hydrogen": "kg",
+      "time": "UTC 15-minute interval start"
+    }
+  },
+  "battery": {
+    "energy_capacity_kwh": 2000.0,
+    "charge_power_max_kw": 500.0,
+    "discharge_power_max_kw": 500.0,
+    "charge_efficiency": 0.9219544457292888,
+    "discharge_efficiency": 0.9219544457292888,
+    "soc_initial": 0.5,
+    "soc_min": 0.15,
+    "soc_max": 0.95,
+    "net_power_ramp_kw_per_h": 500.0
+  },
+  "electrolyzer": {
+    "power_max_kw": 300.0,
+    "power_min_on_kw": 30.0,
+    "electricity_kwh_per_kg_h2": 55.0,
+    "power_ramp_kw_per_h": 300.0
+  },
+  "hydrogen_tank": {
+    "capacity_kg": 600.0,
+    "initial_kg": 300.0,
+    "min_kg": 60.0,
+    "max_kg": 540.0
+  },
+  "fuel_cell": {
+    "power_max_kw": 500.0,
+    "power_min_on_kw": 50.0,
+    "electric_output_kwh_per_kg_h2": 17.875,
+    "power_ramp_kw_per_h": 500.0
+  },
+  "grid": {
+    "import_power_max_kw": 500.0,
+    "export_power_max_kw": 0.0
+  },
+  "rule": {
+    "surplus_priority": ["battery_charge", "electrolyzer", "curtailment"],
+    "deficit_priority": ["battery_discharge", "fuel_cell", "grid_import", "unserved_energy"],
+    "forecast_used": false
+  },
+  "provenance": {
+    "battery_duration_h": "Scenario choice; NREL ATB lists four-hour BESS cases",
+    "battery_round_trip_efficiency": "NREL ATB 2024, utility-scale battery storage, 85%",
+    "battery_soc_limits": "NREL SAM help 2024, 15%-95% default range",
+    "electrolyzer_specific_electricity": "U.S. DOE PEM electrolysis 2022 system status, 55 kWh/kg",
+    "hydrogen_round_trip_efficiency": "Rye microgrid public specifications, 32.5%; 55*0.325=17.875 kWh/kg",
+    "rated_powers_tank_capacity_initial_states_and_ramps": "Contest scenario assumptions; unchanged from the prior one-hour candidate"
+  }
+}

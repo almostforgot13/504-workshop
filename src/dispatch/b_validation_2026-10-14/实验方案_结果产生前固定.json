@@ -1,0 +1,65 @@
+{
+  "created_before_new_results": true,
+  "algorithm": "Unchanged v0.6 source copied from packaging stage, fixed candidate devices and frozen models",
+  "historical_audit": "20 stored seasonal trajectories, 5 methods x 4 weeks",
+  "small_reference": "5 synthetic cases, three 15-minute steps; enumerate 6^3 mode combinations and solve LP",
+  "solver_budgets_s": [
+    0.25,
+    2,
+    10,
+    60
+  ],
+  "solver_snapshots": "2019-01-14, every two hours; common saved C_tcn state, common complete 96-step forecast, terminal=True, no reserve",
+  "stress_day": "2019-01-14T00:00:00Z",
+  "stress_steps": 96,
+  "stress_budget_s": 2,
+  "stress_methods": [
+    "C_tcn_blend_q50",
+    "D_raw_reserve"
+  ],
+  "stress_scenarios": [
+    {
+      "name": "normal",
+      "scale": 1.0,
+      "force_failure": false
+    },
+    {
+      "name": "renewable_drop_20pct",
+      "scale": 0.8,
+      "force_failure": false
+    },
+    {
+      "name": "renewable_drop_60pct",
+      "scale": 0.4,
+      "force_failure": false
+    },
+    {
+      "name": "forced_failure",
+      "scale": 1.0,
+      "force_failure": true
+    }
+  ],
+  "new_test_days": [
+    "2019-02-11T00:00:00Z",
+    "2019-05-13T00:00:00Z",
+    "2019-08-12T00:00:00Z",
+    "2019-11-11T00:00:00Z"
+  ],
+  "new_test_steps": 96,
+  "new_test_budget_s": 0.25,
+  "new_test_methods": [
+    "A_rule",
+    "B_lgbm_q50",
+    "C_tcn_blend_q50",
+    "D_raw_reserve",
+    "E_cqr_reserve"
+  ],
+  "oracle": "2019-01-14 actual-net 96-step independently formulated cost relaxation, 300s ceiling, gap target 1e-4. No final zero-power requirement or future stopping-inventory requirements; same real load bounds and terminal deficit fee. Its dual bound is used as an optimistic cost lower bound, never claimed to be an achievable online optimum.",
+  "online_limitation": "Historical interval-average measured recourse; shrinking horizon remains unchanged; new dates are previously unused in listed team seasonal benchmark, not proof they were never inspected elsewhere",
+  "no_parameter_tuning": true,
+  "pre_diagnostic_addendum": "Before running diagnostic budget, pressure or oracle jobs: add identical full-day TCN-q50 replays at 0.25s and 2s, complementing the four-budget fixed-state comparisons. No parameter changes.",
+  "diagnostic_replay_budgets_s": [
+    0.25,
+    2.0
+  ]
+}

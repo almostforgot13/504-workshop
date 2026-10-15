@@ -1,0 +1,49 @@
+[
+  {
+    "injected": "power_balance",
+    "detected": true,
+    "categories": {
+      "power_balance": 1,
+      "grid_spill_exclusion": 1,
+      "cost_accounting": 1
+    }
+  },
+  {
+    "injected": "battery_inventory",
+    "detected": true,
+    "categories": {
+      "battery_accounting": 1
+    }
+  },
+  {
+    "injected": "hydrogen_inventory",
+    "detected": true,
+    "categories": {
+      "hydrogen_accounting": 1
+    }
+  },
+  {
+    "injected": "cost",
+    "detected": true,
+    "categories": {
+      "cost_accounting": 1
+    }
+  },
+  {
+    "injected": "negative_flow",
+    "detected": true,
+    "categories": {
+      "nonnegative": 1,
+      "power_balance": 1,
+      "cost_accounting": 1
+    }
+  },
+  {
+    "injected": "duplicate_time",
+    "detected": true,
+    "categories": {
+      "duplicate_timestamp": 1,
+      "time_continuity": 1
+    }
+  }
+]

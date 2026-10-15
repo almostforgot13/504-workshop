@@ -1,0 +1,150 @@
+{
+  "historical_trajectories": 20,
+  "historical_steps": 13440,
+  "historical_checks": 376360,
+  "new_trajectories": 37,
+  "new_steps": 3552,
+  "all_independent_audits_passed": true,
+  "small_cases_passed": 5,
+  "small_reference_max_objective_difference": 6.67931487896567e-10,
+  "new_day_aggregate": [
+    {
+      "strategy": "A_rule",
+      "label": "规则候选动作＋共同修正",
+      "steps": 384,
+      "operating_cost_cny": 11394.644093720359,
+      "replacement_accounting_cny": 32216.89491950522,
+      "adjusted_cost_cny": 43611.53901322558,
+      "unserved_kwh": 47.800073750000024,
+      "fallback_steps": 0.0,
+      "load_kwh": 102397.70950625
+    },
+    {
+      "strategy": "B_lgbm_q50",
+      "label": "LightGBM q50",
+      "steps": 384,
+      "operating_cost_cny": 16096.389299722017,
+      "replacement_accounting_cny": 4451.23729115322,
+      "adjusted_cost_cny": 20547.62659087524,
+      "unserved_kwh": 0.0,
+      "fallback_steps": 0.0,
+      "load_kwh": 102397.70950625
+    },
+    {
+      "strategy": "C_tcn_blend_q50",
+      "label": "TCN混合 q50",
+      "steps": 384,
+      "operating_cost_cny": 15636.10647920278,
+      "replacement_accounting_cny": 2435.7740778184025,
+      "adjusted_cost_cny": 18071.880557021184,
+      "unserved_kwh": 0.0,
+      "fallback_steps": 0.0,
+      "load_kwh": 102397.70950625
+    },
+    {
+      "strategy": "D_raw_reserve",
+      "label": "原始区间备用",
+      "steps": 384,
+      "operating_cost_cny": 14821.204419292178,
+      "replacement_accounting_cny": 4195.527392571276,
+      "adjusted_cost_cny": 19016.731811863458,
+      "unserved_kwh": 0.0,
+      "fallback_steps": 0.0,
+      "load_kwh": 102397.70950625
+    },
+    {
+      "strategy": "E_cqr_reserve",
+      "label": "校准区间备用",
+      "steps": 384,
+      "operating_cost_cny": 14970.35320672558,
+      "replacement_accounting_cny": 3950.280100159376,
+      "adjusted_cost_cny": 18920.633306884956,
+      "unserved_kwh": 1.4210854715202004e-14,
+      "fallback_steps": 0.0,
+      "load_kwh": 102397.70950625
+    }
+  ],
+  "solver_budget_certificates": [
+    {
+      "budget_s": 0.25,
+      "incumbents": 12,
+      "met_stop_criterion": 3,
+      "median_gap_pct": 1.2047841721685506,
+      "max_gap_pct": 12.676995010040192
+    },
+    {
+      "budget_s": 2.0,
+      "incumbents": 12,
+      "met_stop_criterion": 12,
+      "median_gap_pct": 2.0698455635146495e-14,
+      "max_gap_pct": 0.0357551751487819
+    },
+    {
+      "budget_s": 10.0,
+      "incumbents": 12,
+      "met_stop_criterion": 12,
+      "median_gap_pct": 2.0698455635146495e-14,
+      "max_gap_pct": 0.0357551751487819
+    },
+    {
+      "budget_s": 60.0,
+      "incumbents": 12,
+      "met_stop_criterion": 12,
+      "median_gap_pct": 2.0698455635146495e-14,
+      "max_gap_pct": 0.0357551751487819
+    }
+  ],
+  "warm_braking_audit": {
+    "passed": true,
+    "steps": 6,
+    "checks": 164,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 0,
+      "battery_accounting_kwh": 0,
+      "hydrogen_accounting_kg": 0
+    },
+    "operating_cost_cny": 15247.1875,
+    "replacement_cny": 10928.483873847337,
+    "adjusted_cost_cny": 26175.671373847337,
+    "terminal_battery_kwh": 346.62769579500986,
+    "terminal_hydrogen_kg": 64.51048951048952,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": false
+  },
+  "oracle": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.4341121999996176,
+    "objective_cny": 236.74770402752816,
+    "dual_bound_cny": 236.74770402752816,
+    "mip_gap": 0.0,
+    "reference_type": "Perfect-information relaxation. Removed future stopping-inventory requirements and final-power-zero requirements. Same actual load, ratings, ramps, mutual exclusion, tariffs, startup charges and deficit replacement accounting.",
+    "not_online_controller": true,
+    "not_claimed_globally_optimal_for_original_controller": true,
+    "steps": 96,
+    "executed_trajectory_membership": [
+      {
+        "strategy": "C_tcn_blend_q50",
+        "reference_constraints_satisfied": true,
+        "max_violation": 1.9826075003948063e-08,
+        "same_objective_cost_cny": 579.9313849883378
+      },
+      {
+        "strategy": "D_raw_reserve",
+        "reference_constraints_satisfied": true,
+        "max_violation": 6.16751094639767e-12,
+        "same_objective_cost_cny": 628.854868093704
+      }
+    ],
+    "relaxed_physics_audit_passed": true,
+    "original_stop_audit_passed": true,
+    "original_stop_violations": {},
+    "unserved_kwh": 0.0,
+    "audited_adjusted_cost_cny": 236.7477040275361,
+    "objective_accounting_difference": 7.929656931082718e-12
+  },
+  "max_physics_balance_residual_kw": 4.547473508864641e-13
+}

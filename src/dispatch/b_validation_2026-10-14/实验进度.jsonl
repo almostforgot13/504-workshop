@@ -1,0 +1,186 @@
+{"time_utc": "2026-10-14T03:18:21.818030+00:00", "message": "phase_started", "phase": "checks"}
+{"time_utc": "2026-10-14T03:18:22.243460+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:22.392888+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:22.535334+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:22.697071+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:22.850530+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:22.987482+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.124621+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.259560+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.416022+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.569385+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.702480+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.859347+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:23.992819+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.126050+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.272680+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.419237+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.559650+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.727793+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:24.942628+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:18:25.109372+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:07.737605+00:00", "message": "phase_started", "phase": "checks"}
+{"time_utc": "2026-10-14T03:19:08.125421+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.265865+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.391316+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.551541+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.684436+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.807914+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:08.941169+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.069574+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.196108+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.328887+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.474425+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.603173+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.727245+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.841199+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:09.984055+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:10.117686+00:00", "message": "historical_audit", "file": "A_rule.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:10.250764+00:00", "message": "historical_audit", "file": "B_lgbm_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:10.388927+00:00", "message": "historical_audit", "file": "C_tcn_blend_q50.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:10.548316+00:00", "message": "historical_audit", "file": "D_raw_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:10.717592+00:00", "message": "historical_audit", "file": "E_cqr_reserve.csv", "passed": true, "steps": 672}
+{"time_utc": "2026-10-14T03:19:11.628664+00:00", "message": "small_reference", "case": "surplus", "passed": true, "difference": 9.769962616701378e-15}
+{"time_utc": "2026-10-14T03:19:11.755959+00:00", "message": "small_reference", "case": "deficit", "passed": true, "difference": 1.8189894035458565e-12}
+{"time_utc": "2026-10-14T03:19:11.887738+00:00", "message": "small_reference", "case": "sign_switch", "passed": true, "difference": 1.7479351299698465e-12}
+{"time_utc": "2026-10-14T03:19:12.001657+00:00", "message": "small_reference", "case": "near_empty", "passed": true, "difference": 2.9103830456733704e-11}
+{"time_utc": "2026-10-14T03:19:12.134992+00:00", "message": "small_reference", "case": "near_full", "passed": true, "difference": 6.67931487896567e-10}
+{"time_utc": "2026-10-14T03:19:12.139189+00:00", "message": "phase_completed", "phase": "checks"}
+{"time_utc": "2026-10-14T03:19:33.818690+00:00", "message": "phase_started", "phase": "forecasts"}
+{"time_utc": "2026-10-14T03:20:01.969612+00:00", "message": "phase_started", "phase": "forecasts"}
+{"time_utc": "2026-10-14T03:20:03.412331+00:00", "message": "new_forecasts", "day": "2019-02-11T00:00:00Z", "rows_per_method": 9216, "history_only_check": true}
+{"time_utc": "2026-10-14T03:20:04.452840+00:00", "message": "new_forecasts", "day": "2019-05-13T00:00:00Z", "rows_per_method": 9216, "history_only_check": true}
+{"time_utc": "2026-10-14T03:20:05.478619+00:00", "message": "new_forecasts", "day": "2019-08-12T00:00:00Z", "rows_per_method": 9216, "history_only_check": true}
+{"time_utc": "2026-10-14T03:20:06.488775+00:00", "message": "new_forecasts", "day": "2019-11-11T00:00:00Z", "rows_per_method": 9216, "history_only_check": true}
+{"time_utc": "2026-10-14T03:20:06.495112+00:00", "message": "phase_completed", "phase": "forecasts"}
+{"time_utc": "2026-10-14T03:20:21.972351+00:00", "message": "phase_started", "phase": "new_days"}
+{"time_utc": "2026-10-14T03:20:22.271574+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190211\\A_rule", "budget": 0.25}
+{"time_utc": "2026-10-14T03:20:23.079632+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190211\\A_rule", "unserved": 0.0, "cost": 951.0771728445927, "audit": true}
+{"time_utc": "2026-10-14T03:20:23.081655+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190211\\B_lgbm_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:20:41.014282+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190211\\B_lgbm_q50", "unserved": 0.0, "cost": 1438.518586262482, "audit": true}
+{"time_utc": "2026-10-14T03:20:41.014282+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190211\\C_tcn_blend_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:20:57.121673+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190211\\C_tcn_blend_q50", "unserved": 0.0, "cost": 991.8677749576729, "audit": true}
+{"time_utc": "2026-10-14T03:20:57.125203+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190211\\D_raw_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:21:15.556622+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190211\\D_raw_reserve", "unserved": 0.0, "cost": 1036.2800674820296, "audit": true}
+{"time_utc": "2026-10-14T03:21:15.559689+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190211\\E_cqr_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:21:33.540410+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190211\\E_cqr_reserve", "unserved": 0.0, "cost": 1083.2681212505813, "audit": true}
+{"time_utc": "2026-10-14T03:21:33.639550+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190513\\A_rule", "budget": 0.25}
+{"time_utc": "2026-10-14T03:21:34.361265+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190513\\A_rule", "unserved": 0.0, "cost": 9347.8761281924, "audit": true}
+{"time_utc": "2026-10-14T03:21:34.364393+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190513\\B_lgbm_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:21:47.662646+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190513\\B_lgbm_q50", "unserved": 0.0, "cost": 2943.398203379261, "audit": true}
+{"time_utc": "2026-10-14T03:21:47.665713+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190513\\C_tcn_blend_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:22:00.585934+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190513\\C_tcn_blend_q50", "unserved": 0.0, "cost": 2629.931826214335, "audit": true}
+{"time_utc": "2026-10-14T03:22:00.585934+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190513\\D_raw_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:22:16.030417+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190513\\D_raw_reserve", "unserved": 0.0, "cost": 2694.4615310466993, "audit": true}
+{"time_utc": "2026-10-14T03:22:16.035045+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190513\\E_cqr_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:22:30.153040+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190513\\E_cqr_reserve", "unserved": 0.0, "cost": 2698.9261310693737, "audit": true}
+{"time_utc": "2026-10-14T03:22:30.234852+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190812\\A_rule", "budget": 0.25}
+{"time_utc": "2026-10-14T03:22:30.917336+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190812\\A_rule", "unserved": 0.0, "cost": 12406.415115327909, "audit": true}
+{"time_utc": "2026-10-14T03:22:30.920672+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190812\\B_lgbm_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:22:47.625610+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190812\\B_lgbm_q50", "unserved": 0.0, "cost": 6002.89509994884, "audit": true}
+{"time_utc": "2026-10-14T03:22:47.628814+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190812\\C_tcn_blend_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:23:02.100205+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190812\\C_tcn_blend_q50", "unserved": 0.0, "cost": 5802.230050582035, "audit": true}
+{"time_utc": "2026-10-14T03:23:02.100205+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190812\\D_raw_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:23:18.694999+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190812\\D_raw_reserve", "unserved": 0.0, "cost": 5937.375700695211, "audit": true}
+{"time_utc": "2026-10-14T03:23:18.699570+00:00", "message": "run_started", "run": "结果\\新日期回放\\20190812\\E_cqr_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:23:35.691266+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20190812\\E_cqr_reserve", "unserved": 1.4210854715202004e-14, "cost": 5833.5468140963085, "audit": true}
+{"time_utc": "2026-10-14T03:23:35.763874+00:00", "message": "run_started", "run": "结果\\新日期回放\\20191111\\A_rule", "budget": 0.25}
+{"time_utc": "2026-10-14T03:23:36.427415+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20191111\\A_rule", "unserved": 47.800073750000024, "cost": 20906.170596860677, "audit": true}
+{"time_utc": "2026-10-14T03:23:36.429808+00:00", "message": "run_started", "run": "结果\\新日期回放\\20191111\\B_lgbm_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:23:49.019149+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20191111\\B_lgbm_q50", "unserved": 0.0, "cost": 10162.814701284657, "audit": true}
+{"time_utc": "2026-10-14T03:23:49.022334+00:00", "message": "run_started", "run": "结果\\新日期回放\\20191111\\C_tcn_blend_q50", "budget": 0.25}
+{"time_utc": "2026-10-14T03:24:02.914761+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20191111\\C_tcn_blend_q50", "unserved": 0.0, "cost": 8647.85090526714, "audit": true}
+{"time_utc": "2026-10-14T03:24:02.914761+00:00", "message": "run_started", "run": "结果\\新日期回放\\20191111\\D_raw_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:24:17.256968+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20191111\\D_raw_reserve", "unserved": 0.0, "cost": 9348.614512639517, "audit": true}
+{"time_utc": "2026-10-14T03:24:17.260106+00:00", "message": "run_started", "run": "结果\\新日期回放\\20191111\\E_cqr_reserve", "budget": 0.25}
+{"time_utc": "2026-10-14T03:24:31.890927+00:00", "message": "run_finished", "run": "结果\\新日期回放\\20191111\\E_cqr_reserve", "unserved": 0.0, "cost": 9304.892240468693, "audit": true}
+{"time_utc": "2026-10-14T03:24:31.896995+00:00", "message": "phase_completed", "phase": "new_days"}
+{"time_utc": "2026-10-14T03:25:20.925784+00:00", "message": "phase_started", "phase": "stress"}
+{"time_utc": "2026-10-14T03:25:21.354447+00:00", "message": "run_started", "run": "结果\\整日预算对照\\0p25", "budget": 0.25}
+{"time_utc": "2026-10-14T03:25:34.705205+00:00", "message": "run_finished", "run": "结果\\整日预算对照\\0p25", "unserved": 0.0, "cost": 580.7460314159421, "audit": true}
+{"time_utc": "2026-10-14T03:25:34.705205+00:00", "message": "run_started", "run": "结果\\压力测试\\normal\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:25:48.072662+00:00", "message": "run_finished", "run": "结果\\压力测试\\normal\\C_tcn_blend_q50", "unserved": 0.0, "cost": 579.9313849883376, "audit": true}
+{"time_utc": "2026-10-14T03:25:48.077929+00:00", "message": "run_started", "run": "结果\\压力测试\\normal\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:26:04.858520+00:00", "message": "run_finished", "run": "结果\\压力测试\\normal\\D_raw_reserve", "unserved": 0.0, "cost": 628.854868093704, "audit": true}
+{"time_utc": "2026-10-14T03:26:04.860839+00:00", "message": "run_started", "run": "结果\\压力测试\\renewable_drop_20pct\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:26:17.803216+00:00", "message": "run_finished", "run": "结果\\压力测试\\renewable_drop_20pct\\C_tcn_blend_q50", "unserved": 0.0, "cost": 4872.826582000837, "audit": true}
+{"time_utc": "2026-10-14T03:26:17.809987+00:00", "message": "run_started", "run": "结果\\压力测试\\renewable_drop_20pct\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:26:34.215263+00:00", "message": "run_finished", "run": "结果\\压力测试\\renewable_drop_20pct\\D_raw_reserve", "unserved": 0.0, "cost": 4888.1590777431375, "audit": true}
+{"time_utc": "2026-10-14T03:26:34.218513+00:00", "message": "run_started", "run": "结果\\压力测试\\renewable_drop_60pct\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:26:47.322802+00:00", "message": "run_finished", "run": "结果\\压力测试\\renewable_drop_60pct\\C_tcn_blend_q50", "unserved": 0.0, "cost": 20748.585044245414, "audit": true}
+{"time_utc": "2026-10-14T03:26:47.325964+00:00", "message": "run_started", "run": "结果\\压力测试\\renewable_drop_60pct\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:27:01.645760+00:00", "message": "run_finished", "run": "结果\\压力测试\\renewable_drop_60pct\\D_raw_reserve", "unserved": 0.0, "cost": 20758.4321901948, "audit": true}
+{"time_utc": "2026-10-14T03:27:01.649036+00:00", "message": "run_started", "run": "结果\\压力测试\\forced_failure\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:27:01.719206+00:00", "message": "run_finished", "run": "结果\\压力测试\\forced_failure\\C_tcn_blend_q50", "unserved": 0.0, "cost": 1875.1384121499998, "audit": true}
+{"time_utc": "2026-10-14T03:27:01.722394+00:00", "message": "run_started", "run": "结果\\压力测试\\forced_failure\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:27:01.814536+00:00", "message": "run_finished", "run": "结果\\压力测试\\forced_failure\\D_raw_reserve", "unserved": 0.0, "cost": 1875.1384121499998, "audit": true}
+{"time_utc": "2026-10-14T03:27:01.819953+00:00", "message": "phase_completed", "phase": "stress"}
+{"time_utc": "2026-10-14T03:30:15.200003+00:00", "message": "phase_started", "phase": "snapshots"}
+{"time_utc": "2026-10-14T03:30:15.532988+00:00", "message": "solver_snapshot", "hour": 0.0, "budget": 0.25, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:15.671065+00:00", "message": "solver_snapshot", "hour": 0.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:15.811336+00:00", "message": "solver_snapshot", "hour": 0.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:15.961012+00:00", "message": "solver_snapshot", "hour": 0.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:16.226282+00:00", "message": "solver_snapshot", "hour": 2.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.12676995010040193}
+{"time_utc": "2026-10-14T03:30:16.778788+00:00", "message": "solver_snapshot", "hour": 2.0, "budget": 2, "status": "optimal", "gap": 0.00021486873994849392}
+{"time_utc": "2026-10-14T03:30:17.351719+00:00", "message": "solver_snapshot", "hour": 2.0, "budget": 10, "status": "optimal", "gap": 0.00021486873994849392}
+{"time_utc": "2026-10-14T03:30:17.918841+00:00", "message": "solver_snapshot", "hour": 2.0, "budget": 60, "status": "optimal", "gap": 0.00021486873994849392}
+{"time_utc": "2026-10-14T03:30:18.181512+00:00", "message": "solver_snapshot", "hour": 4.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.0118038455038249}
+{"time_utc": "2026-10-14T03:30:18.512151+00:00", "message": "solver_snapshot", "hour": 4.0, "budget": 2, "status": "optimal", "gap": 1.804753854748243e-05}
+{"time_utc": "2026-10-14T03:30:18.835582+00:00", "message": "solver_snapshot", "hour": 4.0, "budget": 10, "status": "optimal", "gap": 1.804753854748243e-05}
+{"time_utc": "2026-10-14T03:30:19.164757+00:00", "message": "solver_snapshot", "hour": 4.0, "budget": 60, "status": "optimal", "gap": 1.804753854748243e-05}
+{"time_utc": "2026-10-14T03:30:19.425951+00:00", "message": "solver_snapshot", "hour": 6.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.07685556090707452}
+{"time_utc": "2026-10-14T03:30:19.959978+00:00", "message": "solver_snapshot", "hour": 6.0, "budget": 2, "status": "optimal", "gap": 4.139691127029299e-16}
+{"time_utc": "2026-10-14T03:30:20.469954+00:00", "message": "solver_snapshot", "hour": 6.0, "budget": 10, "status": "optimal", "gap": 4.139691127029299e-16}
+{"time_utc": "2026-10-14T03:30:20.956323+00:00", "message": "solver_snapshot", "hour": 6.0, "budget": 60, "status": "optimal", "gap": 4.139691127029299e-16}
+{"time_utc": "2026-10-14T03:30:21.218334+00:00", "message": "solver_snapshot", "hour": 8.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 9.86400476033865e-05}
+{"time_utc": "2026-10-14T03:30:21.551513+00:00", "message": "solver_snapshot", "hour": 8.0, "budget": 2, "status": "optimal", "gap": 9.86400476033865e-05}
+{"time_utc": "2026-10-14T03:30:21.861952+00:00", "message": "solver_snapshot", "hour": 8.0, "budget": 10, "status": "optimal", "gap": 9.86400476033865e-05}
+{"time_utc": "2026-10-14T03:30:22.170818+00:00", "message": "solver_snapshot", "hour": 8.0, "budget": 60, "status": "optimal", "gap": 9.86400476033865e-05}
+{"time_utc": "2026-10-14T03:30:22.439637+00:00", "message": "solver_snapshot", "hour": 10.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.012291837939546113}
+{"time_utc": "2026-10-14T03:30:22.808287+00:00", "message": "solver_snapshot", "hour": 10.0, "budget": 2, "status": "optimal", "gap": 7.564126455746333e-16}
+{"time_utc": "2026-10-14T03:30:23.204584+00:00", "message": "solver_snapshot", "hour": 10.0, "budget": 10, "status": "optimal", "gap": 7.564126455746333e-16}
+{"time_utc": "2026-10-14T03:30:23.561702+00:00", "message": "solver_snapshot", "hour": 10.0, "budget": 60, "status": "optimal", "gap": 7.564126455746333e-16}
+{"time_utc": "2026-10-14T03:30:23.823361+00:00", "message": "solver_snapshot", "hour": 12.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.0816588890089911}
+{"time_utc": "2026-10-14T03:30:24.266936+00:00", "message": "solver_snapshot", "hour": 12.0, "budget": 2, "status": "optimal", "gap": 0.000357551751487819}
+{"time_utc": "2026-10-14T03:30:24.682224+00:00", "message": "solver_snapshot", "hour": 12.0, "budget": 10, "status": "optimal", "gap": 0.000357551751487819}
+{"time_utc": "2026-10-14T03:30:25.094691+00:00", "message": "solver_snapshot", "hour": 12.0, "budget": 60, "status": "optimal", "gap": 0.000357551751487819}
+{"time_utc": "2026-10-14T03:30:25.356751+00:00", "message": "solver_snapshot", "hour": 14.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.11447098728383516}
+{"time_utc": "2026-10-14T03:30:25.868486+00:00", "message": "solver_snapshot", "hour": 14.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:26.333473+00:00", "message": "solver_snapshot", "hour": 14.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:26.784803+00:00", "message": "solver_snapshot", "hour": 14.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:27.056227+00:00", "message": "solver_snapshot", "hour": 16.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.11592016227244638}
+{"time_utc": "2026-10-14T03:30:27.535323+00:00", "message": "solver_snapshot", "hour": 16.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:28.002850+00:00", "message": "solver_snapshot", "hour": 16.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:28.478678+00:00", "message": "solver_snapshot", "hour": 16.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:28.745155+00:00", "message": "solver_snapshot", "hour": 18.0, "budget": 0.25, "status": "time_limit_feasible", "gap": 0.006840485481180562}
+{"time_utc": "2026-10-14T03:30:29.068418+00:00", "message": "solver_snapshot", "hour": 18.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:29.388152+00:00", "message": "solver_snapshot", "hour": 18.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:29.702319+00:00", "message": "solver_snapshot", "hour": 18.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:29.935218+00:00", "message": "solver_snapshot", "hour": 20.0, "budget": 0.25, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:30.187037+00:00", "message": "solver_snapshot", "hour": 20.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:30.418848+00:00", "message": "solver_snapshot", "hour": 20.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:30.644662+00:00", "message": "solver_snapshot", "hour": 20.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:30.895039+00:00", "message": "solver_snapshot", "hour": 22.0, "budget": 0.25, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:31.140757+00:00", "message": "solver_snapshot", "hour": 22.0, "budget": 2, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:31.368404+00:00", "message": "solver_snapshot", "hour": 22.0, "budget": 10, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:31.601674+00:00", "message": "solver_snapshot", "hour": 22.0, "budget": 60, "status": "optimal", "gap": 0.0}
+{"time_utc": "2026-10-14T03:30:31.611276+00:00", "message": "phase_completed", "phase": "snapshots"}
+{"time_utc": "2026-10-14T03:31:15.444101+00:00", "message": "phase_started", "phase": "stress_extra"}
+{"time_utc": "2026-10-14T03:31:15.688950+00:00", "message": "run_started", "run": "结果\\强化压力测试\\normal\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:31:31.751646+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\normal\\C_tcn_blend_q50", "unserved": 0.0, "cost": 9129.719631350625, "audit": true}
+{"time_utc": "2026-10-14T03:31:31.754703+00:00", "message": "run_started", "run": "结果\\强化压力测试\\normal\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:31:50.590798+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\normal\\D_raw_reserve", "unserved": 0.0, "cost": 9191.976652598047, "audit": true}
+{"time_utc": "2026-10-14T03:31:50.594157+00:00", "message": "run_started", "run": "结果\\强化压力测试\\renewable_drop_60pct\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:32:05.893903+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\renewable_drop_60pct\\C_tcn_blend_q50", "unserved": 3291.2394689449084, "cost": 349901.2095386998, "audit": true}
+{"time_utc": "2026-10-14T03:32:05.896295+00:00", "message": "run_started", "run": "结果\\强化压力测试\\renewable_drop_60pct\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:32:22.064611+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\renewable_drop_60pct\\D_raw_reserve", "unserved": 3291.2394689449084, "cost": 349901.2095386992, "audit": true}
+{"time_utc": "2026-10-14T03:32:22.064611+00:00", "message": "run_started", "run": "结果\\强化压力测试\\renewable_zero\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:32:39.117202+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\renewable_zero\\C_tcn_blend_q50", "unserved": 9747.287468943581, "cost": 995506.009538569, "audit": true}
+{"time_utc": "2026-10-14T03:32:39.126018+00:00", "message": "run_started", "run": "结果\\强化压力测试\\renewable_zero\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:32:57.202081+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\renewable_zero\\D_raw_reserve", "unserved": 9747.287468943581, "cost": 995506.009538569, "audit": true}
+{"time_utc": "2026-10-14T03:32:57.212109+00:00", "message": "run_started", "run": "结果\\强化压力测试\\forced_failure\\C_tcn_blend_q50", "budget": 2}
+{"time_utc": "2026-10-14T03:32:57.258965+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\forced_failure\\C_tcn_blend_q50", "unserved": 830.4834067499999, "cost": 90603.43190975, "audit": true}
+{"time_utc": "2026-10-14T03:32:57.262051+00:00", "message": "run_started", "run": "结果\\强化压力测试\\forced_failure\\D_raw_reserve", "budget": 2}
+{"time_utc": "2026-10-14T03:32:57.315519+00:00", "message": "run_finished", "run": "结果\\强化压力测试\\forced_failure\\D_raw_reserve", "unserved": 830.4834067499999, "cost": 90603.43190975, "audit": true}
+{"time_utc": "2026-10-14T03:32:57.322139+00:00", "message": "warm_state_failure", "passed": true, "final_E": 346.62769579500986, "final_H": 64.51048951048952}
+{"time_utc": "2026-10-14T03:32:57.324365+00:00", "message": "phase_completed", "phase": "stress_extra"}

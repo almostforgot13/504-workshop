@@ -1,0 +1,9 @@
+timestamp_utc,strategy,event,fallback,actual_correction,reason,mip_gap,reserve_shortfall_kwh
+2019-06-15 05:15:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.02234817754006643,0.0
+2019-06-15 05:30:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.021385452337420726,0.0
+2019-06-15 05:45:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.02205771742789521,0.0
+2019-06-15 14:45:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.023264954891307938,0.0
+2019-06-15 15:30:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.021518672382934742,0.0
+2019-06-15 16:00:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.020443227888323548,0.0
+2019-06-15 16:15:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.02186734989172525,0.0
+2019-06-15 16:30:00+00:00,quantile_reserve_milp,time_limit_feasible,False,False,,0.02193161709819523,0.0
