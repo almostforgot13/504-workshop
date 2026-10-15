@@ -1,0 +1,41 @@
+{
+  "recorded_before_extension_results": true,
+  "reason": "All first diagnostic-day cases had zero customer shortfall; extend scenario coverage without replacing those results. Diagnostic extension, not untouched holdout evidence.",
+  "start": "2019-11-11T00:00:00Z",
+  "steps": 96,
+  "budgets_s": 2,
+  "methods": [
+    "C_tcn_blend_q50",
+    "D_raw_reserve"
+  ],
+  "scenarios": [
+    {
+      "name": "normal",
+      "scale": 1,
+      "forced_failure": false
+    },
+    {
+      "name": "renewable_drop_60pct",
+      "scale": 0.4,
+      "forced_failure": false
+    },
+    {
+      "name": "renewable_zero",
+      "scale": 0,
+      "forced_failure": false
+    },
+    {
+      "name": "forced_failure",
+      "scale": 1,
+      "forced_failure": true
+    }
+  ],
+  "warm_state_fallback": {
+    "initial_E_kwh": 550,
+    "initial_H_kg": 75,
+    "previous_battery_discharge_kw": 500,
+    "previous_fc_kw": 500,
+    "net_load_kw": 700,
+    "steps": 6
+  }
+}

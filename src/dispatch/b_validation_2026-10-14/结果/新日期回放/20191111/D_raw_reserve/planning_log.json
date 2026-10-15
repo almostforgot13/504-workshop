@@ -1,0 +1,2594 @@
+[
+  {
+    "issue_time": "2019-11-11 00:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2549882000002981,
+    "mip_gap": 0.9259533118625406,
+    "plan_objective_cny": 184322.6420600567,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 51.10802441809858,
+      "battery_down_kwh": 43.56676769753213,
+      "hydrogen_up_kg": 39.81629100879589,
+      "hydrogen_down_kg": 12.284246271306818
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 514.9551574707032,
+    "q50_first_kw": 526.1757019042968,
+    "q90_first_kw": 537.64404296875,
+    "lower_used_kw": 514.9551574707032,
+    "upper_used_kw": 537.64404296875
+  },
+  {
+    "issue_time": "2019-11-11 00:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.28289700000004814,
+    "mip_gap": 0.9288476409244045,
+    "plan_objective_cny": 188393.74137707878,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 51.78334112106181,
+      "battery_down_kwh": 43.93525686332888,
+      "hydrogen_up_kg": 40.16269112967111,
+      "hydrogen_down_kg": 12.298555408824575
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 500.2074798583985,
+    "q50_first_kw": 511.5305938720704,
+    "q90_first_kw": 523.0529479980469,
+    "lower_used_kw": 500.2074798583985,
+    "upper_used_kw": 523.0529479980469
+  },
+  {
+    "issue_time": "2019-11-11 00:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.30654930000036984,
+    "mip_gap": 0.4978014692090032,
+    "plan_objective_cny": 25178.58018976786,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.692438326026085,
+      "battery_down_kwh": 44.452291887636136,
+      "hydrogen_up_kg": 40.75625887784091,
+      "hydrogen_down_kg": 12.443366033380682
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 486.5272094726562,
+    "q50_first_kw": 498.11269226074216,
+    "q90_first_kw": 509.78046875,
+    "lower_used_kw": 486.5272094726562,
+    "upper_used_kw": 509.78046875
+  },
+  {
+    "issue_time": "2019-11-11 00:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2541944999993575,
+    "mip_gap": 0.9069454900609061,
+    "plan_objective_cny": 127965.65649354215,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.54189835713307,
+      "battery_down_kwh": 45.07273729310284,
+      "hydrogen_up_kg": 41.46932407192417,
+      "hydrogen_down_kg": 12.656581670587713
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 477.15232543945314,
+    "q50_first_kw": 489.06633300781255,
+    "q90_first_kw": 500.9381866455078,
+    "lower_used_kw": 477.15232543945314,
+    "upper_used_kw": 500.9381866455078
+  },
+  {
+    "issue_time": "2019-11-11 01:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25411389999953826,
+    "mip_gap": 0.13301978257745456,
+    "plan_objective_cny": 13238.68092071849,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 54.27692753863977,
+      "battery_down_kwh": 45.45190118780306,
+      "hydrogen_up_kg": 42.09049635667067,
+      "hydrogen_down_kg": 12.848671791770242
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 468.0046600341797,
+    "q50_first_kw": 480.1044647216797,
+    "q90_first_kw": 492.20996704101566,
+    "lower_used_kw": 468.0046600341797,
+    "upper_used_kw": 492.20996704101566
+  },
+  {
+    "issue_time": "2019-11-11 01:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.3069326999993791,
+    "mip_gap": 0.49171447405122426,
+    "plan_objective_cny": 23280.256554451706,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 54.83318339508696,
+      "battery_down_kwh": 45.24943725671952,
+      "hydrogen_up_kg": 42.48558673992024,
+      "hydrogen_down_kg": 12.902883911132813
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 463.24322509765625,
+    "q50_first_kw": 475.2742279052735,
+    "q90_first_kw": 487.4578979492188,
+    "lower_used_kw": 463.24322509765625,
+    "upper_used_kw": 487.4578979492188
+  },
+  {
+    "issue_time": "2019-11-11 01:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.26526900000044407,
+    "mip_gap": 0.9067610827038904,
+    "plan_objective_cny": 126074.46676829651,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 55.34497721323403,
+      "battery_down_kwh": 45.47307127977779,
+      "hydrogen_up_kg": 43.2019845388986,
+      "hydrogen_down_kg": 13.07253847989169
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 461.7733673095704,
+    "q50_first_kw": 473.8431457519532,
+    "q90_first_kw": 486.1120513916016,
+    "lower_used_kw": 461.7733673095704,
+    "upper_used_kw": 486.1120513916016
+  },
+  {
+    "issue_time": "2019-11-11 01:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2809824000005392,
+    "mip_gap": 0.7449747612282899,
+    "plan_objective_cny": 46751.11843363903,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 55.46987044907326,
+      "battery_down_kwh": 45.53266293981358,
+      "hydrogen_up_kg": 43.78827715253497,
+      "hydrogen_down_kg": 13.226034684614701
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 464.6299346923829,
+    "q50_first_kw": 476.68897399902346,
+    "q90_first_kw": 489.0003723144532,
+    "lower_used_kw": 464.6299346923829,
+    "upper_used_kw": 489.0003723144532
+  },
+  {
+    "issue_time": "2019-11-11 02:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2748813999996855,
+    "mip_gap": 0.6725345511639957,
+    "plan_objective_cny": 37260.594832163006,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 55.763372532381794,
+      "battery_down_kwh": 45.566729786825654,
+      "hydrogen_up_kg": 44.51798701786495,
+      "hydrogen_down_kg": 13.381405084783381
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 467.2585388183594,
+    "q50_first_kw": 479.3252471923829,
+    "q90_first_kw": 491.7577636718751,
+    "lower_used_kw": 467.2585388183594,
+    "upper_used_kw": 491.7577636718751
+  },
+  {
+    "issue_time": "2019-11-11 02:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.26384819999930187,
+    "mip_gap": 0.909433781970605,
+    "plan_objective_cny": 127887.84045185083,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 56.57720599919582,
+      "battery_down_kwh": 46.36313940429902,
+      "hydrogen_up_kg": 45.74971360426683,
+      "hydrogen_down_kg": 13.751263566450639
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 458.86912231445314,
+    "q50_first_kw": 471.1278869628906,
+    "q90_first_kw": 483.6878997802734,
+    "lower_used_kw": 458.86912231445314,
+    "upper_used_kw": 483.6878997802734
+  },
+  {
+    "issue_time": "2019-11-11 02:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2560745999999199,
+    "mip_gap": 0.920154141518949,
+    "plan_objective_cny": 151857.9839134063,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 56.91008084805519,
+      "battery_down_kwh": 46.1277685252521,
+      "hydrogen_up_kg": 46.62724976439576,
+      "hydrogen_down_kg": 13.902595936168323
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 19.670410156253638,
+    "recourse_status": "optimal",
+    "q10_first_kw": 466.8896087646485,
+    "q50_first_kw": 479.0443450927735,
+    "q90_first_kw": 491.6059295654297,
+    "lower_used_kw": 466.8896087646485,
+    "upper_used_kw": 491.6059295654297
+  },
+  {
+    "issue_time": "2019-11-11 02:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2788172000000486,
+    "mip_gap": 5.817247614639209e-05,
+    "plan_objective_cny": 12406.880844988005,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 57.32153903330742,
+      "battery_down_kwh": 46.05907000470534,
+      "hydrogen_up_kg": 47.74269669539445,
+      "hydrogen_down_kg": 14.133221504905007
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 473.9748840332032,
+    "q50_first_kw": 486.1034545898438,
+    "q90_first_kw": 498.76632385253913,
+    "lower_used_kw": 473.9748840332032,
+    "upper_used_kw": 498.76632385253913
+  },
+  {
+    "issue_time": "2019-11-11 03:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2550319000001764,
+    "mip_gap": 0.926267305193473,
+    "plan_objective_cny": 177783.18708756124,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 57.77155901056667,
+      "battery_down_kwh": 45.911406907447734,
+      "hydrogen_up_kg": 48.81119435983938,
+      "hydrogen_down_kg": 14.372432361949574
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 52.916165161136405,
+    "recourse_status": "optimal",
+    "q10_first_kw": 486.0088623046875,
+    "q50_first_kw": 498.0885345458984,
+    "q90_first_kw": 510.7841766357422,
+    "lower_used_kw": 486.0088623046875,
+    "upper_used_kw": 510.7841766357422
+  },
+  {
+    "issue_time": "2019-11-11 03:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2712639000001218,
+    "mip_gap": 0.9228951761865526,
+    "plan_objective_cny": 169969.3001124768,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 58.40436166678304,
+      "battery_down_kwh": 46.46320795381507,
+      "hydrogen_up_kg": 50.24771438278518,
+      "hydrogen_down_kg": 14.773227830366654
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 55.39983520507667,
+    "recourse_status": "optimal",
+    "q10_first_kw": 496.528759765625,
+    "q50_first_kw": 508.7014343261719,
+    "q90_first_kw": 521.5952270507813,
+    "lower_used_kw": 496.528759765625,
+    "upper_used_kw": 521.5952270507813
+  },
+  {
+    "issue_time": "2019-11-11 03:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2686538999996628,
+    "mip_gap": 0.9271377107232062,
+    "plan_objective_cny": 170443.1114920822,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.679682111260696,
+      "battery_down_kwh": 47.673845727707175,
+      "hydrogen_up_kg": 52.16189127035074,
+      "hydrogen_down_kg": 15.343963761763138
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 54.287078857421875,
+    "recourse_status": "optimal",
+    "q10_first_kw": 497.372152709961,
+    "q50_first_kw": 509.8271423339844,
+    "q90_first_kw": 522.9648986816406,
+    "lower_used_kw": 497.372152709961,
+    "upper_used_kw": 522.9648986816406
+  },
+  {
+    "issue_time": "2019-11-11 03:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.26346190000003844,
+    "mip_gap": 0.9160417921162328,
+    "plan_objective_cny": 154365.21974584268,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.83227919638439,
+      "battery_down_kwh": 47.953903317826786,
+      "hydrogen_up_kg": 53.61667190231643,
+      "hydrogen_down_kg": 15.695869688554243
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 512.8146606445313,
+    "q50_first_kw": 525.3388061523438,
+    "q90_first_kw": 538.5896606445312,
+    "lower_used_kw": 512.8146606445313,
+    "upper_used_kw": 538.5896606445312
+  },
+  {
+    "issue_time": "2019-11-11 04:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2542732999991131,
+    "mip_gap": 0.23358300176665492,
+    "plan_objective_cny": 17669.90782164809,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.70369354834897,
+      "battery_down_kwh": 48.099326804065086,
+      "hydrogen_up_kg": 55.10374738786604,
+      "hydrogen_down_kg": 16.04593752080744
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 528.4363677978515,
+    "q50_first_kw": 541.0154418945312,
+    "q90_first_kw": 554.3039855957031,
+    "lower_used_kw": 528.4363677978515,
+    "upper_used_kw": 554.3039855957031
+  },
+  {
+    "issue_time": "2019-11-11 04:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2684575000002951,
+    "mip_gap": 0.926502999738772,
+    "plan_objective_cny": 203344.20362306148,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.0895780396487,
+      "battery_down_kwh": 47.22284687227958,
+      "hydrogen_up_kg": 56.5542978140024,
+      "hydrogen_down_kg": 16.154072189331053
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 91.1556396484375,
+    "recourse_status": "optimal",
+    "q10_first_kw": 567.6439392089843,
+    "q50_first_kw": 580.0410888671875,
+    "q90_first_kw": 593.3685180664062,
+    "lower_used_kw": 567.6439392089843,
+    "upper_used_kw": 593.3685180664062
+  },
+  {
+    "issue_time": "2019-11-11 04:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2546394999999393,
+    "mip_gap": 0.9207849710578073,
+    "plan_objective_cny": 185475.7456934271,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.06854899914395,
+      "battery_down_kwh": 47.75815259263769,
+      "hydrogen_up_kg": 58.30838290127841,
+      "hydrogen_down_kg": 16.692448182539508
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.1218139648444776,
+    "recourse_status": "optimal",
+    "q10_first_kw": 578.6746185302734,
+    "q50_first_kw": 591.2774963378906,
+    "q90_first_kw": 604.6200439453125,
+    "lower_used_kw": 578.6746185302734,
+    "upper_used_kw": 604.6200439453125
+  },
+  {
+    "issue_time": "2019-11-11 04:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2543913000008615,
+    "mip_gap": 0.7829239838300754,
+    "plan_objective_cny": 61744.14277898216,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.77655207354193,
+      "battery_down_kwh": 48.89817157648472,
+      "hydrogen_up_kg": 60.65656669990166,
+      "hydrogen_down_kg": 17.347716626253995
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 580.6628601074219,
+    "q50_first_kw": 593.5712707519532,
+    "q90_first_kw": 607.071942138672,
+    "lower_used_kw": 580.6628601074219,
+    "upper_used_kw": 607.071942138672
+  },
+  {
+    "issue_time": "2019-11-11 05:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25525310000011814,
+    "mip_gap": 0.00011354590350639421,
+    "plan_objective_cny": 12013.726431905488,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 61.43800515803298,
+      "battery_down_kwh": 50.87991713117472,
+      "hydrogen_up_kg": 63.86084283148492,
+      "hydrogen_down_kg": 18.18397173881531
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 585.2336669921875,
+    "q50_first_kw": 598.5905883789063,
+    "q90_first_kw": 612.4551452636719,
+    "lower_used_kw": 585.2336669921875,
+    "upper_used_kw": 612.4551452636719
+  },
+  {
+    "issue_time": "2019-11-11 05:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25365310000051977,
+    "mip_gap": 0.6579726571817294,
+    "plan_objective_cny": 32655.925412860866,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 62.6291316532332,
+      "battery_down_kwh": 52.625077042926364,
+      "hydrogen_up_kg": 67.47189373736614,
+      "hydrogen_down_kg": 18.86585419178009
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 615.0474792480469,
+    "q50_first_kw": 628.8007995605469,
+    "q90_first_kw": 642.91982421875,
+    "lower_used_kw": 615.0474792480469,
+    "upper_used_kw": 642.91982421875
+  },
+  {
+    "issue_time": "2019-11-11 05:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2545599000004586,
+    "mip_gap": 0.00016212722315195986,
+    "plan_objective_cny": 11628.687287862298,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 62.78598055679364,
+      "battery_down_kwh": 53.23514033198455,
+      "hydrogen_up_kg": 69.85842618075284,
+      "hydrogen_down_kg": 19.13685113733465
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 655.5893127441406,
+    "q50_first_kw": 669.4416137695313,
+    "q90_first_kw": 683.4326049804687,
+    "lower_used_kw": 655.5893127441406,
+    "upper_used_kw": 683.4326049804687
+  },
+  {
+    "issue_time": "2019-11-11 05:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2538027000000511,
+    "mip_gap": 3.2989448288318405e-05,
+    "plan_objective_cny": 11644.372739004815,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 63.92526929206545,
+      "battery_down_kwh": 54.47926394827117,
+      "hydrogen_up_kg": 72.17300180288461,
+      "hydrogen_down_kg": 19.50954905612902
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 684.1128997802734,
+    "q50_first_kw": 698.1926940917969,
+    "q90_first_kw": 712.1904541015625,
+    "lower_used_kw": 684.1128997802734,
+    "upper_used_kw": 712.1904541015625
+  },
+  {
+    "issue_time": "2019-11-11 06:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25347659999988537,
+    "mip_gap": 0.6514064099805862,
+    "plan_objective_cny": 32851.397490287716,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 65.59208142213772,
+      "battery_down_kwh": 55.862506517641016,
+      "hydrogen_up_kg": 74.44480458506338,
+      "hydrogen_down_kg": 19.937002790516072
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 703.9565643310548,
+    "q50_first_kw": 718.2931274414063,
+    "q90_first_kw": 732.3174560546876,
+    "lower_used_kw": 703.9565643310548,
+    "upper_used_kw": 732.3174560546876
+  },
+  {
+    "issue_time": "2019-11-11 06:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.255863400000635,
+    "mip_gap": 3.540308271992256e-05,
+    "plan_objective_cny": 11354.26804248318,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 67.80529773514822,
+      "battery_down_kwh": 57.12869916524997,
+      "hydrogen_up_kg": 76.01516531564138,
+      "hydrogen_down_kg": 20.302019744027746
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 734.0402008056641,
+    "q50_first_kw": 748.62900390625,
+    "q90_first_kw": 762.8056945800781,
+    "lower_used_kw": 734.0402008056641,
+    "upper_used_kw": 762.8056945800781
+  },
+  {
+    "issue_time": "2019-11-11 06:30:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25678980000066076,
+    "mip_gap": 0.6867611349630766,
+    "plan_objective_cny": 35763.56142438837,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 71.5386260293042,
+      "battery_down_kwh": 58.88585478250504,
+      "hydrogen_up_kg": 77.65137401660839,
+      "hydrogen_down_kg": 20.809786219149828
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 746.1602325439453,
+    "q50_first_kw": 761.154217529297,
+    "q90_first_kw": 775.7482238769531,
+    "lower_used_kw": 746.1602325439453,
+    "upper_used_kw": 775.7482238769531
+  },
+  {
+    "issue_time": "2019-11-11 06:45:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2600523000000976,
+    "mip_gap": 0.8770747323740207,
+    "plan_objective_cny": 90305.30354447826,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 76.25942219114307,
+      "battery_down_kwh": 60.243214510581915,
+      "hydrogen_up_kg": 79.13624241968968,
+      "hydrogen_down_kg": 21.15041858933189
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 739.9262298583984,
+    "q50_first_kw": 755.2125610351562,
+    "q90_first_kw": 770.2594299316406,
+    "lower_used_kw": 739.9262298583984,
+    "upper_used_kw": 770.2594299316406
+  },
+  {
+    "issue_time": "2019-11-11 07:00:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2534565999994811,
+    "mip_gap": 0.4705511169115366,
+    "plan_objective_cny": 20533.050863773366,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 82.00529387747173,
+      "battery_down_kwh": 61.530008906665714,
+      "hydrogen_up_kg": 80.46143645173186,
+      "hydrogen_down_kg": 21.380780726535754
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 729.393310546875,
+    "q50_first_kw": 744.9204528808594,
+    "q90_first_kw": 760.7383239746094,
+    "lower_used_kw": 729.393310546875,
+    "upper_used_kw": 760.7383239746094
+  },
+  {
+    "issue_time": "2019-11-11 07:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.25395170000047074,
+    "mip_gap": 0.2184342444532448,
+    "plan_objective_cny": 13403.960978621775,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 88.1789160420425,
+      "battery_down_kwh": 63.09956615165686,
+      "hydrogen_up_kg": 81.25575971269942,
+      "hydrogen_down_kg": 21.562770387801258
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 701.3259521484375,
+    "q50_first_kw": 717.1971008300782,
+    "q90_first_kw": 734.0849792480469,
+    "lower_used_kw": 701.3259521484375,
+    "upper_used_kw": 734.0849792480469
+  },
+  {
+    "issue_time": "2019-11-11 07:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.15219929999966553,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 10019.92424280297,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 94.8385331357797,
+      "battery_down_kwh": 65.47703141906246,
+      "hydrogen_up_kg": 81.91471745417668,
+      "hydrogen_down_kg": 21.935236601396042
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 665.0418518066407,
+    "q50_first_kw": 681.425262451172,
+    "q90_first_kw": 699.6719116210938,
+    "lower_used_kw": 665.0418518066407,
+    "upper_used_kw": 699.6719116210938
+  },
+  {
+    "issue_time": "2019-11-11 07:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.12392519999957585,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 9943.914477050694,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 100.06613480094732,
+      "battery_down_kwh": 67.50822496842738,
+      "hydrogen_up_kg": 81.8595864889505,
+      "hydrogen_down_kg": 22.151177540692416
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 643.4244384765625,
+    "q50_first_kw": 660.2411315917968,
+    "q90_first_kw": 679.8888122558593,
+    "lower_used_kw": 643.4244384765625,
+    "upper_used_kw": 679.8888122558593
+  },
+  {
+    "issue_time": "2019-11-11 08:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.1558562999998685,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 9663.281680708309,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 105.38533013521747,
+      "battery_down_kwh": 70.39109743044175,
+      "hydrogen_up_kg": 81.92265031721209,
+      "hydrogen_down_kg": 22.47057657892054
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 601.7469543457031,
+    "q50_first_kw": 619.2009460449219,
+    "q90_first_kw": 640.4445068359375,
+    "lower_used_kw": 601.7469543457031,
+    "upper_used_kw": 640.4445068359375
+  },
+  {
+    "issue_time": "2019-11-11 08:15:00+00:00",
+    "solver_status": "time_limit_feasible",
+    "solver_seconds": 0.2538832000000184,
+    "mip_gap": 0.08695674168191696,
+    "plan_objective_cny": 10337.71398280138,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 110.39866514240052,
+      "battery_down_kwh": 73.0262871316642,
+      "hydrogen_up_kg": 81.81308026080364,
+      "hydrogen_down_kg": 22.72866214838895
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 555.659588623047,
+    "q50_first_kw": 573.8111480712892,
+    "q90_first_kw": 596.5266235351563,
+    "lower_used_kw": 555.659588623047,
+    "upper_used_kw": 596.5266235351563
+  },
+  {
+    "issue_time": "2019-11-11 08:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.20020620000013878,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 9323.67008606541,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 114.29259929918713,
+      "battery_down_kwh": 75.34100987924725,
+      "hydrogen_up_kg": 80.77986048985194,
+      "hydrogen_down_kg": 22.77240721312436
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 527.2041839599609,
+    "q50_first_kw": 545.904248046875,
+    "q90_first_kw": 569.7197021484375,
+    "lower_used_kw": 527.2041839599609,
+    "upper_used_kw": 569.7197021484375
+  },
+  {
+    "issue_time": "2019-11-11 08:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.15851540000039677,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 9188.826259307683,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 117.9708020804663,
+      "battery_down_kwh": 77.4524130152175,
+      "hydrogen_up_kg": 79.71097292599978,
+      "hydrogen_down_kg": 22.76233772798018
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 490.0954208374024,
+    "q50_first_kw": 509.36651306152345,
+    "q90_first_kw": 534.1865356445312,
+    "lower_used_kw": 490.0954208374024,
+    "upper_used_kw": 534.1865356445312
+  },
+  {
+    "issue_time": "2019-11-11 09:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.2019177000001946,
+    "mip_gap": 6.94853600601632e-07,
+    "plan_objective_cny": 9014.903398676797,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 121.78936203902619,
+      "battery_down_kwh": 79.97882366973255,
+      "hydrogen_up_kg": 78.58192497200065,
+      "hydrogen_down_kg": 22.788342504067856
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 456.09373168945314,
+    "q50_first_kw": 476.05299377441406,
+    "q90_first_kw": 501.93824157714846,
+    "lower_used_kw": 456.09373168945314,
+    "upper_used_kw": 501.93824157714846
+  },
+  {
+    "issue_time": "2019-11-11 09:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.1539357999999993,
+    "mip_gap": 8.230351668031583e-16,
+    "plan_objective_cny": 8840.396993538898,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 124.49487570417197,
+      "battery_down_kwh": 82.58697819211422,
+      "hydrogen_up_kg": 77.27142099233774,
+      "hydrogen_down_kg": 22.883569861542096
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 416.9550308227539,
+    "q50_first_kw": 437.6593231201172,
+    "q90_first_kw": 464.55994567871096,
+    "lower_used_kw": 416.9550308227539,
+    "upper_used_kw": 464.55994567871096
+  },
+  {
+    "issue_time": "2019-11-11 09:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.18911930000012944,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 8647.474921909345,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 126.08368748852644,
+      "battery_down_kwh": 85.2818469062913,
+      "hydrogen_up_kg": 75.48995054018248,
+      "hydrogen_down_kg": 22.90251838944175
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 383.0608123779297,
+    "q50_first_kw": 404.6077423095703,
+    "q90_first_kw": 432.2960418701172,
+    "lower_used_kw": 383.0608123779297,
+    "upper_used_kw": 432.2960418701172
+  },
+  {
+    "issue_time": "2019-11-11 09:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.14854620000005525,
+    "mip_gap": 4.2627620148603575e-16,
+    "plan_objective_cny": 8534.323038465209,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 126.87082627160355,
+      "battery_down_kwh": 87.42320082809258,
+      "hydrogen_up_kg": 73.58794077626474,
+      "hydrogen_down_kg": 22.894176959991455
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 351.84553966522213,
+    "q50_first_kw": 374.2363662719727,
+    "q90_first_kw": 402.58635864257815,
+    "lower_used_kw": 351.84553966522213,
+    "upper_used_kw": 402.58635864257815
+  },
+  {
+    "issue_time": "2019-11-11 10:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.2391568000002735,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 8347.913697711167,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 127.60151964098509,
+      "battery_down_kwh": 88.80671011071824,
+      "hydrogen_up_kg": 71.80898322258795,
+      "hydrogen_down_kg": 22.83363256454468
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 312.624702334404,
+    "q50_first_kw": 335.7086578369141,
+    "q90_first_kw": 364.4350830078125,
+    "lower_used_kw": 312.624702334404,
+    "upper_used_kw": 364.4350830078125
+  },
+  {
+    "issue_time": "2019-11-11 10:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.14342630000010104,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 8051.802493243276,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 128.71850246618263,
+      "battery_down_kwh": 89.94128412709993,
+      "hydrogen_up_kg": 70.0702162522536,
+      "hydrogen_down_kg": 22.751669456471095
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 285.32452869415283,
+    "q50_first_kw": 308.8289855957031,
+    "q90_first_kw": 337.6980895996094,
+    "lower_used_kw": 285.32452869415283,
+    "upper_used_kw": 337.6980895996094
+  },
+  {
+    "issue_time": "2019-11-11 10:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.07809020000058808,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7641.529272672346,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 128.736653378131,
+      "battery_down_kwh": 91.34621013521493,
+      "hydrogen_up_kg": 68.00634744284037,
+      "hydrogen_down_kg": 22.778858881646936
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 256.2167366027832,
+    "q50_first_kw": 280.21780853271486,
+    "q90_first_kw": 309.2423400878906,
+    "lower_used_kw": 256.2167366027832,
+    "upper_used_kw": 309.2423400878906
+  },
+  {
+    "issue_time": "2019-11-11 10:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.09860070000013366,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7566.330591900311,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 128.1150260201004,
+      "battery_down_kwh": 91.85973187524499,
+      "hydrogen_up_kg": 65.81804139464052,
+      "hydrogen_down_kg": 22.655139659751544
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 241.5530899047852,
+    "q50_first_kw": 265.8334091186524,
+    "q90_first_kw": 295.0260711669922,
+    "lower_used_kw": 241.5530899047852,
+    "upper_used_kw": 295.0260711669922
+  },
+  {
+    "issue_time": "2019-11-11 11:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.08826930000032007,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7581.9339734930845,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 126.79396873656327,
+      "battery_down_kwh": 91.97017691400619,
+      "hydrogen_up_kg": 63.6345490142182,
+      "hydrogen_down_kg": 22.478744582696393
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 215.553995513916,
+    "q50_first_kw": 240.04189453125,
+    "q90_first_kw": 269.26120910644534,
+    "lower_used_kw": 215.553995513916,
+    "upper_used_kw": 269.26120910644534
+  },
+  {
+    "issue_time": "2019-11-11 11:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.07547780000004423,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7520.446144154276,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 125.35378233577805,
+      "battery_down_kwh": 91.59091981941269,
+      "hydrogen_up_kg": 61.55230264730387,
+      "hydrogen_down_kg": 22.235454617847097
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 187.78538513183597,
+    "q50_first_kw": 212.32620239257807,
+    "q90_first_kw": 241.4848480224609,
+    "lower_used_kw": 187.78538513183597,
+    "upper_used_kw": 241.4848480224609
+  },
+  {
+    "issue_time": "2019-11-11 11:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.08854520000022603,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7543.405769633247,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 123.44411424773074,
+      "battery_down_kwh": 90.72245652919837,
+      "hydrogen_up_kg": 59.51693576199192,
+      "hydrogen_down_kg": 21.879407167434692
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 187.67382583618163,
+    "q50_first_kw": 212.07622833251955,
+    "q90_first_kw": 241.06211547851564,
+    "lower_used_kw": 187.67382583618163,
+    "upper_used_kw": 241.06211547851564
+  },
+  {
+    "issue_time": "2019-11-11 11:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.09064089999992575,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7439.661839095376,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 121.74315144246282,
+      "battery_down_kwh": 90.09891537057992,
+      "hydrogen_up_kg": 57.73674896880463,
+      "hydrogen_down_kg": 21.61286007274281
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 195.09373931884767,
+    "q50_first_kw": 219.4005310058594,
+    "q90_first_kw": 248.2120513916016,
+    "lower_used_kw": 195.09373931884767,
+    "upper_used_kw": 248.2120513916016
+  },
+  {
+    "issue_time": "2019-11-11 12:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.0758055999995122,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7234.274558333999,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 120.13554865632719,
+      "battery_down_kwh": 89.60207141073688,
+      "hydrogen_up_kg": 55.99942678171438,
+      "hydrogen_down_kg": 21.39947922446511
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 184.19839744567872,
+    "q50_first_kw": 208.42375793457032,
+    "q90_first_kw": 236.91872558593752,
+    "lower_used_kw": 184.19839744567872,
+    "upper_used_kw": 236.91872558593752
+  },
+  {
+    "issue_time": "2019-11-11 12:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.15796880000016245,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7320.844890353117,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 117.52522673474141,
+      "battery_down_kwh": 88.36972589798597,
+      "hydrogen_up_kg": 54.21790959284856,
+      "hydrogen_down_kg": 21.012585310502487
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 206.3944372177124,
+    "q50_first_kw": 230.39028930664065,
+    "q90_first_kw": 258.4012786865235,
+    "lower_used_kw": 206.3944372177124,
+    "upper_used_kw": 258.4012786865235
+  },
+  {
+    "issue_time": "2019-11-11 12:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.16137479999997595,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7303.190389168605,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 114.44503087950606,
+      "battery_down_kwh": 86.98537583252634,
+      "hydrogen_up_kg": 52.53561764163571,
+      "hydrogen_down_kg": 20.596980146928267
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 223.64324970245363,
+    "q50_first_kw": 247.31744079589845,
+    "q90_first_kw": 274.8409606933594,
+    "lower_used_kw": 223.64324970245363,
+    "upper_used_kw": 274.8409606933594
+  },
+  {
+    "issue_time": "2019-11-11 12:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.1493838999995205,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7398.002582307272,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 110.44574215661734,
+      "battery_down_kwh": 84.86674324238503,
+      "hydrogen_up_kg": 50.73889928430944,
+      "hydrogen_down_kg": 20.12054873379794
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 242.3911903381348,
+    "q50_first_kw": 265.6564025878906,
+    "q90_first_kw": 292.72906494140625,
+    "lower_used_kw": 242.3911903381348,
+    "upper_used_kw": 292.72906494140625
+  },
+  {
+    "issue_time": "2019-11-11 13:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.1566001999999571,
+    "mip_gap": 1.9029704627942488e-05,
+    "plan_objective_cny": 7539.568493830739,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 106.4529271541705,
+      "battery_down_kwh": 82.40714301925892,
+      "hydrogen_up_kg": 48.91965297885708,
+      "hydrogen_down_kg": 19.652723277698865
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 267.727311706543,
+    "q50_first_kw": 290.34698181152345,
+    "q90_first_kw": 316.5829956054688,
+    "lower_used_kw": 267.727311706543,
+    "upper_used_kw": 316.5829956054688
+  },
+  {
+    "issue_time": "2019-11-11 13:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.15467609999996057,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 7422.910568765156,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 102.1678546645476,
+      "battery_down_kwh": 79.73058170958123,
+      "hydrogen_up_kg": 47.32484361341783,
+      "hydrogen_down_kg": 19.142815884676846
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 301.7696762084961,
+    "q50_first_kw": 323.630062866211,
+    "q90_first_kw": 348.9881896972657,
+    "lower_used_kw": 301.7696762084961,
+    "upper_used_kw": 348.9881896972657
+  },
+  {
+    "issue_time": "2019-11-11 13:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.19832940000014787,
+    "mip_gap": 5.032810368508784e-16,
+    "plan_objective_cny": 7228.523510154908,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 98.19108204283532,
+      "battery_down_kwh": 76.8582542000152,
+      "hydrogen_up_kg": 46.05619673295455,
+      "hydrogen_down_kg": 18.654093100807884
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 343.74631652832034,
+    "q50_first_kw": 364.9338348388672,
+    "q90_first_kw": 389.4796508789063,
+    "lower_used_kw": 343.74631652832034,
+    "upper_used_kw": 389.4796508789063
+  },
+  {
+    "issue_time": "2019-11-11 13:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.11846940000032191,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 6999.621475366838,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 93.84843870684385,
+      "battery_down_kwh": 74.47960441472127,
+      "hydrogen_up_kg": 44.91767253742351,
+      "hydrogen_down_kg": 18.244318597966974
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 383.9950836181641,
+    "q50_first_kw": 404.5774230957031,
+    "q90_first_kw": 428.3967895507813,
+    "lower_used_kw": 383.9950836181641,
+    "upper_used_kw": 428.3967895507813
+  },
+  {
+    "issue_time": "2019-11-11 14:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.09363329999996495,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 6775.1469794636,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 88.8928574288387,
+      "battery_down_kwh": 72.79110019051974,
+      "hydrogen_up_kg": 43.93809669334572,
+      "hydrogen_down_kg": 17.907686268199573
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 426.6893432617188,
+    "q50_first_kw": 446.6114318847656,
+    "q90_first_kw": 469.3631958007813,
+    "lower_used_kw": 426.6893432617188,
+    "upper_used_kw": 469.3631958007813
+  },
+  {
+    "issue_time": "2019-11-11 14:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.06036870000025374,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 6396.872841577599,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 83.36626636855758,
+      "battery_down_kwh": 70.94481452593492,
+      "hydrogen_up_kg": 43.18205250559987,
+      "hydrogen_down_kg": 17.646942693536932
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 462.8489044189453,
+    "q50_first_kw": 482.0770324707032,
+    "q90_first_kw": 503.6855346679688,
+    "lower_used_kw": 462.8489044189453,
+    "upper_used_kw": 503.6855346679688
+  },
+  {
+    "issue_time": "2019-11-11 14:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.018233499999951164,
+    "mip_gap": 0.008234533991902703,
+    "plan_objective_cny": 6131.788725690839,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 79.28973572571932,
+      "battery_down_kwh": 69.35615235792399,
+      "hydrogen_up_kg": 42.61878081635162,
+      "hydrogen_down_kg": 17.466646922718393
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 488.4295043945313,
+    "q50_first_kw": 507.12456665039065,
+    "q90_first_kw": 527.6510925292969,
+    "lower_used_kw": 488.4295043945313,
+    "upper_used_kw": 527.6510925292969
+  },
+  {
+    "issue_time": "2019-11-11 14:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.055956199999855016,
+    "mip_gap": 0.009380796676348557,
+    "plan_objective_cny": 5766.865952855751,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 76.00024001169307,
+      "battery_down_kwh": 67.88122922942914,
+      "hydrogen_up_kg": 42.12095204600087,
+      "hydrogen_down_kg": 17.359764237837357
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 506.58681640625,
+    "q50_first_kw": 524.967822265625,
+    "q90_first_kw": 544.2847961425781,
+    "lower_used_kw": 506.58681640625,
+    "upper_used_kw": 544.2847961425781
+  },
+  {
+    "issue_time": "2019-11-11 15:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.06828330000007554,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 5354.752496384332,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 73.19793251647633,
+      "battery_down_kwh": 66.47362948343367,
+      "hydrogen_up_kg": 41.54618483323317,
+      "hydrogen_down_kg": 17.20255487615412
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 518.6998901367188,
+    "q50_first_kw": 536.7478881835938,
+    "q90_first_kw": 554.9185546875,
+    "lower_used_kw": 518.6998901367188,
+    "upper_used_kw": 554.9185546875
+  },
+  {
+    "issue_time": "2019-11-11 15:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.058846599999924365,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 5036.456585948657,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 70.87458930631577,
+      "battery_down_kwh": 65.36899972998943,
+      "hydrogen_up_kg": 40.9673470450448,
+      "hydrogen_down_kg": 17.04314578663219
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 527.3233154296875,
+    "q50_first_kw": 544.9628845214844,
+    "q90_first_kw": 562.4650207519531,
+    "lower_used_kw": 527.3233154296875,
+    "upper_used_kw": 562.4650207519531
+  },
+  {
+    "issue_time": "2019-11-11 15:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05598620000000665,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 4530.28569772856,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 68.23169438408661,
+      "battery_down_kwh": 65.08092413547006,
+      "hydrogen_up_kg": 40.244194190818945,
+      "hydrogen_down_kg": 16.97418001348322
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 511.2234344482422,
+    "q50_first_kw": 528.6467895507812,
+    "q90_first_kw": 545.4699951171875,
+    "lower_used_kw": 511.2234344482422,
+    "upper_used_kw": 545.4699951171875
+  },
+  {
+    "issue_time": "2019-11-11 15:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05235309999989113,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 4122.783323364085,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 65.86718681886266,
+      "battery_down_kwh": 64.65453708581039,
+      "hydrogen_up_kg": 39.45609224759615,
+      "hydrogen_down_kg": 16.87944863059304
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 495.3092864990234,
+    "q50_first_kw": 512.5519714355469,
+    "q90_first_kw": 528.5735107421875,
+    "lower_used_kw": 495.3092864990234,
+    "upper_used_kw": 528.5735107421875
+  },
+  {
+    "issue_time": "2019-11-11 16:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.058544200000142155,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3881.0308400764598,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 63.81466077593325,
+      "battery_down_kwh": 63.79120080085477,
+      "hydrogen_up_kg": 38.79379699280212,
+      "hydrogen_down_kg": 16.72235058911822
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 495.91383666992186,
+    "q50_first_kw": 512.9307830810546,
+    "q90_first_kw": 528.2887756347657,
+    "lower_used_kw": 495.91383666992186,
+    "upper_used_kw": 528.2887756347657
+  },
+  {
+    "issue_time": "2019-11-11 16:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05254830000012589,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3756.699275041105,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 62.006323004658,
+      "battery_down_kwh": 62.25470173384245,
+      "hydrogen_up_kg": 38.272397981657015,
+      "hydrogen_down_kg": 16.474366220560942
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 503.5272094726563,
+    "q50_first_kw": 520.3419342041016,
+    "q90_first_kw": 535.0995178222656,
+    "lower_used_kw": 503.5272094726563,
+    "upper_used_kw": 535.0995178222656
+  },
+  {
+    "issue_time": "2019-11-11 16:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.061267099999895436,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3574.568030481371,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 60.755946616843936,
+      "battery_down_kwh": 60.74167356522573,
+      "hydrogen_up_kg": 37.85317705061052,
+      "hydrogen_down_kg": 16.29572490236976
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 494.5572875976562,
+    "q50_first_kw": 511.0604949951172,
+    "q90_first_kw": 525.4498901367188,
+    "lower_used_kw": 494.5572875976562,
+    "upper_used_kw": 525.4498901367188
+  },
+  {
+    "issue_time": "2019-11-11 16:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05596829999922193,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3457.954987507093,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.89512964602784,
+      "battery_down_kwh": 59.723793569007896,
+      "hydrogen_up_kg": 37.574307848523546,
+      "hydrogen_down_kg": 16.231828448989173
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 487.642709350586,
+    "q50_first_kw": 503.8937042236328,
+    "q90_first_kw": 518.0087951660156,
+    "lower_used_kw": 487.642709350586,
+    "upper_used_kw": 518.0087951660156
+  },
+  {
+    "issue_time": "2019-11-11 17:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05272179999974469,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3301.4899653252933,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 59.15003611733796,
+      "battery_down_kwh": 59.10398016432663,
+      "hydrogen_up_kg": 37.30442978118683,
+      "hydrogen_down_kg": 16.212718441269615
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 470.60572509765626,
+    "q50_first_kw": 486.62790527343753,
+    "q90_first_kw": 500.43372802734376,
+    "lower_used_kw": 470.60572509765626,
+    "upper_used_kw": 500.43372802734376
+  },
+  {
+    "issue_time": "2019-11-11 17:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05636849999973492,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3199.8500367579363,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 58.4875700349476,
+      "battery_down_kwh": 58.57617123236159,
+      "hydrogen_up_kg": 37.05592977750551,
+      "hydrogen_down_kg": 16.184146213531495
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 460.9481002807617,
+    "q50_first_kw": 476.7186645507812,
+    "q90_first_kw": 490.2997802734375,
+    "lower_used_kw": 460.9481002807617,
+    "upper_used_kw": 490.2997802734375
+  },
+  {
+    "issue_time": "2019-11-11 17:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.05330659999981435,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3185.9335969750923,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 58.25806286700804,
+      "battery_down_kwh": 58.449493234083064,
+      "hydrogen_up_kg": 37.05690556847966,
+      "hydrogen_down_kg": 16.25513250109824
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 449.40452728271487,
+    "q50_first_kw": 465.0497131347657,
+    "q90_first_kw": 478.53310546875,
+    "lower_used_kw": 449.40452728271487,
+    "upper_used_kw": 478.53310546875
+  },
+  {
+    "issue_time": "2019-11-11 17:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.08626000000003842,
+    "mip_gap": 1.785265457540068e-07,
+    "plan_objective_cny": 3264.376109641591,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 57.813576542899106,
+      "battery_down_kwh": 58.40725328398104,
+      "hydrogen_up_kg": 37.044156464663416,
+      "hydrogen_down_kg": 16.33771341822364
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 449.9228210449219,
+    "q50_first_kw": 465.50415954589846,
+    "q90_first_kw": 478.8947387695313,
+    "lower_used_kw": 449.9228210449219,
+    "upper_used_kw": 478.8947387695313
+  },
+  {
+    "issue_time": "2019-11-11 18:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.04580239999995683,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3281.9421339924625,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 57.31469706467477,
+      "battery_down_kwh": 58.61768527838952,
+      "hydrogen_up_kg": 37.08571120909044,
+      "hydrogen_down_kg": 16.44007404392416
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 445.140446472168,
+    "q50_first_kw": 460.77049865722654,
+    "q90_first_kw": 474.09422607421874,
+    "lower_used_kw": 445.140446472168,
+    "upper_used_kw": 474.09422607421874
+  },
+  {
+    "issue_time": "2019-11-11 18:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.04249930000059976,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3243.031537987708,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 56.57743853344665,
+      "battery_down_kwh": 58.507464622767465,
+      "hydrogen_up_kg": 35.057594167602645,
+      "hydrogen_down_kg": 15.558867614377629
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 436.2107650756836,
+    "q50_first_kw": 451.7728088378906,
+    "q90_first_kw": 465.0169494628906,
+    "lower_used_kw": 436.2107650756836,
+    "upper_used_kw": 465.0169494628906
+  },
+  {
+    "issue_time": "2019-11-11 18:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.04083649999938643,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3176.1321143810806,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 56.02597073100391,
+      "battery_down_kwh": 58.87060305959948,
+      "hydrogen_up_kg": 33.01845011719457,
+      "hydrogen_down_kg": 14.771934665739536
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 412.9601455688477,
+    "q50_first_kw": 428.61914672851566,
+    "q90_first_kw": 441.6975952148438,
+    "lower_used_kw": 412.9601455688477,
+    "upper_used_kw": 441.6975952148438
+  },
+  {
+    "issue_time": "2019-11-11 18:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03627369999958319,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3175.412969511875,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 55.45724988017912,
+      "battery_down_kwh": 59.19897846380189,
+      "hydrogen_up_kg": 30.987852973537844,
+      "hydrogen_down_kg": 13.93772107146003
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 409.3603912353516,
+    "q50_first_kw": 425.0740203857422,
+    "q90_first_kw": 437.9665130615235,
+    "lower_used_kw": 409.3603912353516,
+    "upper_used_kw": 437.9665130615235
+  },
+  {
+    "issue_time": "2019-11-11 19:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.043403200000284414,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 3116.160124869295,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 55.09374174698925,
+      "battery_down_kwh": 59.66945363503134,
+      "hydrogen_up_kg": 29.003388764974954,
+      "hydrogen_down_kg": 13.106499598243019
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 399.84977264404296,
+    "q50_first_kw": 415.6138092041015,
+    "q90_first_kw": 428.30169677734375,
+    "lower_used_kw": 399.84977264404296,
+    "upper_used_kw": 428.30169677734375
+  },
+  {
+    "issue_time": "2019-11-11 19:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.09208979999948497,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2994.7244686153913,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 54.543577708646716,
+      "battery_down_kwh": 60.74575114847913,
+      "hydrogen_up_kg": 27.16682965605409,
+      "hydrogen_down_kg": 12.361650317365473
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 362.3041191101074,
+    "q50_first_kw": 378.3309295654297,
+    "q90_first_kw": 390.9526794433594,
+    "lower_used_kw": 362.3041191101074,
+    "upper_used_kw": 390.9526794433594
+  },
+  {
+    "issue_time": "2019-11-11 19:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.041668099999697006,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2909.8984599709543,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 54.04302083922518,
+      "battery_down_kwh": 61.05838834391823,
+      "hydrogen_up_kg": 25.300410183993254,
+      "hydrogen_down_kg": 11.53780475096269
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 339.3331726074219,
+    "q50_first_kw": 355.5571914672852,
+    "q90_first_kw": 368.0907287597656,
+    "lower_used_kw": 339.3331726074219,
+    "upper_used_kw": 368.0907287597656
+  },
+  {
+    "issue_time": "2019-11-11 19:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03465299999970739,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2826.372874891998,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.68701545260141,
+      "battery_down_kwh": 61.15294398786286,
+      "hydrogen_up_kg": 23.408269095254113,
+      "hydrogen_down_kg": 10.693771464174445
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 9.717813015906332,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 325.97637634277345,
+    "q50_first_kw": 342.2939697265625,
+    "q90_first_kw": 354.7857208251953,
+    "lower_used_kw": 325.97637634277345,
+    "upper_used_kw": 354.7857208251953
+  },
+  {
+    "issue_time": "2019-11-11 20:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.037218700000266836,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2768.6922476612876,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.31105142779823,
+      "battery_down_kwh": 61.35337767797029,
+      "hydrogen_up_kg": 21.59014572463669,
+      "hydrogen_down_kg": 9.871569043939763
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 312.0050033569336,
+    "q50_first_kw": 328.31482849121096,
+    "q90_first_kw": 340.66600646972654,
+    "lower_used_kw": 312.0050033569336,
+    "upper_used_kw": 340.66600646972654
+  },
+  {
+    "issue_time": "2019-11-11 20:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03425810000044294,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2733.2200357547626,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.41771028025621,
+      "battery_down_kwh": 61.7691697242012,
+      "hydrogen_up_kg": 19.775962829589844,
+      "hydrogen_down_kg": 9.030095421184193
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 285.0403198242188,
+    "q50_first_kw": 301.39564208984376,
+    "q90_first_kw": 313.6146148681641,
+    "lower_used_kw": 285.0403198242188,
+    "upper_used_kw": 313.6146148681641
+  },
+  {
+    "issue_time": "2019-11-11 20:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03475929999967775,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2714.187632871429,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.140687924129,
+      "battery_down_kwh": 61.98919675752362,
+      "hydrogen_up_kg": 18.005380110307172,
+      "hydrogen_down_kg": 8.20154773538763
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 278.3482128143311,
+    "q50_first_kw": 294.6869323730469,
+    "q90_first_kw": 306.86997070312503,
+    "lower_used_kw": 278.3482128143311,
+    "upper_used_kw": 306.86997070312503
+  },
+  {
+    "issue_time": "2019-11-11 20:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03503690000070492,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2684.644049682585,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.06191508473455,
+      "battery_down_kwh": 61.95298908808197,
+      "hydrogen_up_kg": 16.205767384775868,
+      "hydrogen_down_kg": 7.3419153907082295
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 270.1492115020752,
+    "q50_first_kw": 286.4347091674805,
+    "q90_first_kw": 298.4962432861328,
+    "lower_used_kw": 270.1492115020752,
+    "upper_used_kw": 298.4962432861328
+  },
+  {
+    "issue_time": "2019-11-11 21:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03620439999940572,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2662.4094884510896,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 51.88737123496312,
+      "battery_down_kwh": 61.7731031553556,
+      "hydrogen_up_kg": 14.339742860593995,
+      "hydrogen_down_kg": 6.495387129350142
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 262.5185943603516,
+    "q50_first_kw": 278.8369537353516,
+    "q90_first_kw": 290.563916015625,
+    "lower_used_kw": 262.5185943603516,
+    "upper_used_kw": 290.563916015625
+  },
+  {
+    "issue_time": "2019-11-11 21:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03228630000012345,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2685.7968549216184,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.198359314666526,
+      "battery_down_kwh": 61.01346507217314,
+      "hydrogen_up_kg": 12.455954171560862,
+      "hydrogen_down_kg": 5.643534920432351
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 269.3195266723633,
+    "q50_first_kw": 285.48054351806644,
+    "q90_first_kw": 297.10732421875,
+    "lower_used_kw": 269.3195266723633,
+    "upper_used_kw": 297.10732421875
+  },
+  {
+    "issue_time": "2019-11-11 21:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.032472700000653276,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2627.763885929862,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.41542134880507,
+      "battery_down_kwh": 61.3818450138497,
+      "hydrogen_up_kg": 10.62775671898902,
+      "hydrogen_down_kg": 4.835253680836071
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 254.80546073913573,
+    "q50_first_kw": 271.01606903076174,
+    "q90_first_kw": 282.6470977783203,
+    "lower_used_kw": 254.80546073913573,
+    "upper_used_kw": 282.6470977783203
+  },
+  {
+    "issue_time": "2019-11-11 21:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03432700000030309,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2586.9193101209876,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.58430658929852,
+      "battery_down_kwh": 61.90224371902061,
+      "hydrogen_up_kg": 8.85051871346427,
+      "hydrogen_down_kg": 4.02677151073109
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 240.26844034194949,
+    "q50_first_kw": 256.5180572509766,
+    "q90_first_kw": 268.19653930664066,
+    "lower_used_kw": 240.26844034194949,
+    "upper_used_kw": 268.19653930664066
+  },
+  {
+    "issue_time": "2019-11-11 22:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.02961209999921266,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2568.3149423939776,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 52.894101793120946,
+      "battery_down_kwh": 62.41530285017025,
+      "hydrogen_up_kg": 7.086969762415319,
+      "hydrogen_down_kg": 3.2198779713023793
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 234.7377901792526,
+    "q50_first_kw": 250.97349243164064,
+    "q90_first_kw": 262.880908203125,
+    "lower_used_kw": 234.7377901792526,
+    "upper_used_kw": 262.880908203125
+  },
+  {
+    "issue_time": "2019-11-11 22:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.008732899999813526,
+    "mip_gap": 0.00674095343598598,
+    "plan_objective_cny": 2575.3487391008834,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.34287262286557,
+      "battery_down_kwh": 62.75336158589773,
+      "hydrogen_up_kg": 5.29154093282206,
+      "hydrogen_down_kg": 2.4069730758666994
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.44877082974460336,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 234.4721062660217,
+    "q50_first_kw": 250.77078399658205,
+    "q90_first_kw": 262.72421875,
+    "lower_used_kw": 234.4721062660217,
+    "upper_used_kw": 262.72421875
+  },
+  {
+    "issue_time": "2019-11-11 22:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.03208459999950719,
+    "mip_gap": 0.0,
+    "plan_objective_cny": 2508.268888182239,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.25853758074201,
+      "battery_down_kwh": 63.00957295022147,
+      "hydrogen_up_kg": 3.5042061972451375,
+      "hydrogen_down_kg": 1.580259877985174
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 203.1396945953369,
+    "q50_first_kw": 219.5982498168945,
+    "q90_first_kw": 231.49505615234372,
+    "lower_used_kw": 203.1396945953369,
+    "upper_used_kw": 231.49505615234372
+  },
+  {
+    "issue_time": "2019-11-11 22:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.012769500000104017,
+    "mip_gap": 0.009562633632600669,
+    "plan_objective_cny": 2506.8107411235715,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.404537644344224,
+      "battery_down_kwh": 62.830248530366006,
+      "hydrogen_up_kg": 1.7529357696746612,
+      "hydrogen_down_kg": 0.7832556637850675
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.1460000636021732,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 186.26207580566407,
+    "q50_first_kw": 202.9175567626953,
+    "q90_first_kw": 214.88611145019533,
+    "lower_used_kw": 186.26207580566407,
+    "upper_used_kw": 214.88611145019533
+  },
+  {
+    "issue_time": "2019-11-11 23:00:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.008538099999896076,
+    "mip_gap": 0.008654513785448136,
+    "plan_objective_cny": 2472.329972916481,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 53.72278455790752,
+      "battery_down_kwh": 62.550039534382115,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 175.4279296875,
+    "q50_first_kw": 192.0972366333008,
+    "q90_first_kw": 204.23645477294923,
+    "lower_used_kw": 175.4279296875,
+    "upper_used_kw": 204.23645477294923
+  },
+  {
+    "issue_time": "2019-11-11 23:15:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.009181399999761197,
+    "mip_gap": 0.004531186592245068,
+    "plan_objective_cny": 2421.050817842168,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 19.99348738830739,
+      "battery_down_kwh": 23.18667802346742,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 147.48065567016602,
+    "q50_first_kw": 164.1011241912842,
+    "q90_first_kw": 176.2385467529297,
+    "lower_used_kw": 147.48065567016602,
+    "upper_used_kw": 176.2385467529297
+  },
+  {
+    "issue_time": "2019-11-11 23:30:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.010167599999476806,
+    "mip_gap": 4.743959626414797e-05,
+    "plan_objective_cny": 2369.2094463412,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 10.003151678155884,
+      "battery_down_kwh": 11.524443320658118,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 125.52319793701172,
+    "q50_first_kw": 142.11656360626222,
+    "q90_first_kw": 154.30616302490233,
+    "lower_used_kw": 125.52319793701172,
+    "upper_used_kw": 154.30616302490233
+  },
+  {
+    "issue_time": "2019-11-11 23:45:00+00:00",
+    "solver_status": "optimal",
+    "solver_seconds": 0.007521799999267387,
+    "mip_gap": 0.005600897356921423,
+    "plan_objective_cny": 2342.85178871133,
+    "reserve_enabled": true,
+    "reserve_targets": {
+      "battery_up_kwh": 3.324740531142707,
+      "battery_down_kwh": 3.802365243582539,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "reserve_shortfalls": {
+      "battery_up_kwh": 0.0,
+      "battery_down_kwh": 0.0,
+      "hydrogen_up_kg": 0.0,
+      "hydrogen_down_kg": 0.0
+    },
+    "endpoint_unserved_kw": 0.0,
+    "recourse_status": "optimal",
+    "q10_first_kw": 117.88974914550782,
+    "q50_first_kw": 134.38672580718995,
+    "q90_first_kw": 146.64776306152345,
+    "lower_used_kw": 117.88974914550782,
+    "upper_used_kw": 146.64776306152345
+  }
+]

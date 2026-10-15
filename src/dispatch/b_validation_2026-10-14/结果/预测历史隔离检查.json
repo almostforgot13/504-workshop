@@ -1,0 +1,30 @@
+[
+  {
+    "day": "2019-02-11T00:00:00Z",
+    "tcn_full_batch_vs_history_only_max_kw": 0.0001220703125,
+    "lgbm_full_batch_vs_history_only_max_kw": 0.0,
+    "passed": true,
+    "all_calendar_lag_feature_indices_before_issue": true
+  },
+  {
+    "day": "2019-05-13T00:00:00Z",
+    "tcn_full_batch_vs_history_only_max_kw": 0.000244140625,
+    "lgbm_full_batch_vs_history_only_max_kw": 0.0,
+    "passed": true,
+    "all_calendar_lag_feature_indices_before_issue": true
+  },
+  {
+    "day": "2019-08-12T00:00:00Z",
+    "tcn_full_batch_vs_history_only_max_kw": 0.0001220703125,
+    "lgbm_full_batch_vs_history_only_max_kw": 0.0,
+    "passed": true,
+    "all_calendar_lag_feature_indices_before_issue": true
+  },
+  {
+    "day": "2019-11-11T00:00:00Z",
+    "tcn_full_batch_vs_history_only_max_kw": 0.00018310546875,
+    "lgbm_full_batch_vs_history_only_max_kw": 0.0,
+    "passed": true,
+    "all_calendar_lag_feature_indices_before_issue": true
+  }
+]

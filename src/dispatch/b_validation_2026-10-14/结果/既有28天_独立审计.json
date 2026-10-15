@@ -1,0 +1,422 @@
+[
+  {
+    "file": "输入\\既有轨迹\\20190114\\A_rule.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 9.094947017729282e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 1566926.354314183,
+    "replacement_cny": 11167.405281972022,
+    "adjusted_cost_cny": 1578093.7595961548,
+    "terminal_battery_kwh": 299.99999997403006,
+    "terminal_hydrogen_kg": 59.99999999869889,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190114\\B_lgbm_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 1047014.5534477412,
+    "replacement_cny": 11161.273860429767,
+    "adjusted_cost_cny": 1058175.827308171,
+    "terminal_battery_kwh": 299.99999997498037,
+    "terminal_hydrogen_kg": 60.13935048827685,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190114\\C_tcn_blend_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 1047974.9584222803,
+    "replacement_cny": 11167.405281967993,
+    "adjusted_cost_cny": 1059142.3637042483,
+    "terminal_battery_kwh": 299.9999999747252,
+    "terminal_hydrogen_kg": 59.99999999877671,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190114\\D_raw_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 1.1368683772161603e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 1065421.9273490985,
+    "replacement_cny": 11161.40528196888,
+    "adjusted_cost_cny": 1076583.3326310674,
+    "terminal_battery_kwh": 299.99999997573866,
+    "terminal_hydrogen_kg": 60.136363635100224,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190114\\E_cqr_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 1.1368683772161603e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 1087266.2532715262,
+    "replacement_cny": 11167.405281968815,
+    "adjusted_cost_cny": 1098433.658553495,
+    "terminal_battery_kwh": 299.9999999751523,
+    "terminal_hydrogen_kg": 59.99999999874968,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190415\\A_rule.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 9.094947017729282e-13,
+      "hydrogen_accounting_kg": 8.526512829121202e-14
+    },
+    "operating_cost_cny": 7344.01900998736,
+    "replacement_cny": 10588.321951489897,
+    "adjusted_cost_cny": 17932.340961477257,
+    "terminal_battery_kwh": 311.19453911099265,
+    "terminal_hydrogen_kg": 72.9402178278335,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190415\\B_lgbm_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 9.094947017729282e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 11875.324203131508,
+    "replacement_cny": 0.0049296000001902264,
+    "adjusted_cost_cny": 11875.329132731507,
+    "terminal_battery_kwh": 999.9943189167052,
+    "terminal_hydrogen_kg": 300.0,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190415\\C_tcn_blend_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 11278.014178204483,
+    "replacement_cny": 0.0,
+    "adjusted_cost_cny": 11278.014178204483,
+    "terminal_battery_kwh": 1000.0,
+    "terminal_hydrogen_kg": 300.0,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190415\\D_raw_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 11338.261241929944,
+    "replacement_cny": 2.5011104298755527e-12,
+    "adjusted_cost_cny": 11338.261241929946,
+    "terminal_battery_kwh": 1000.0000000000001,
+    "terminal_hydrogen_kg": 299.99999999999994,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190415\\E_cqr_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 11105.33622775711,
+    "replacement_cny": 5.002220859751105e-12,
+    "adjusted_cost_cny": 11105.336227757116,
+    "terminal_battery_kwh": 1000.0000000000001,
+    "terminal_hydrogen_kg": 299.9999999999999,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190715\\A_rule.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 3.410605131648481e-13,
+      "hydrogen_accounting_kg": 2.842170943040401e-14
+    },
+    "operating_cost_cny": 1059581.3621015674,
+    "replacement_cny": 11167.40528196912,
+    "adjusted_cost_cny": 1070748.7673835366,
+    "terminal_battery_kwh": 299.9999999733269,
+    "terminal_hydrogen_kg": 59.99999999877869,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190715\\B_lgbm_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 352099.7796481773,
+    "replacement_cny": 7070.988967113644,
+    "adjusted_cost_cny": 359170.768615291,
+    "terminal_battery_kwh": 299.999999975654,
+    "terminal_hydrogen_kg": 153.10037079090273,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190715\\C_tcn_blend_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 626639.7739323472,
+    "replacement_cny": 5591.967876255528,
+    "adjusted_cost_cny": 632231.7418086027,
+    "terminal_battery_kwh": 305.0791123918232,
+    "terminal_hydrogen_kg": 186.6143215666097,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190715\\D_raw_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 534777.6151035413,
+    "replacement_cny": 7064.274916093274,
+    "adjusted_cost_cny": 541841.8900196346,
+    "terminal_battery_kwh": 299.9999999756841,
+    "terminal_hydrogen_kg": 153.25296285954687,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20190715\\E_cqr_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 526369.2995996566,
+    "replacement_cny": 7172.704790579211,
+    "adjusted_cost_cny": 533542.0043902358,
+    "terminal_battery_kwh": 311.41278785382593,
+    "terminal_hydrogen_kg": 150.56357650310358,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20191014\\A_rule.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 822296.3370779303,
+    "replacement_cny": 11167.405281966552,
+    "adjusted_cost_cny": 833463.7423598969,
+    "terminal_battery_kwh": 299.9999999763772,
+    "terminal_hydrogen_kg": 59.99999999877688,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20191014\\B_lgbm_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 4.547473508864641e-13,
+      "battery_accounting_kwh": 9.094947017729282e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 43493.26553831553,
+    "replacement_cny": 8769.851896447379,
+    "adjusted_cost_cny": 52263.117434762906,
+    "terminal_battery_kwh": 404.0917365218481,
+    "terminal_hydrogen_kg": 112.43706166385377,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20191014\\C_tcn_blend_q50.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 4.547473508864641e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 148725.26933166667,
+    "replacement_cny": 9042.892426368542,
+    "adjusted_cost_cny": 157768.16175803522,
+    "terminal_battery_kwh": 309.990560002836,
+    "terminal_hydrogen_kg": 108.08735973869489,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20191014\\D_raw_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 1.7053025658242404e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 159525.72619547718,
+    "replacement_cny": 10564.42214960746,
+    "adjusted_cost_cny": 170090.14834508463,
+    "terminal_battery_kwh": 321.0499877080678,
+    "terminal_hydrogen_kg": 73.28903632732784,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  },
+  {
+    "file": "输入\\既有轨迹\\20191014\\E_cqr_reserve.csv",
+    "passed": true,
+    "steps": 672,
+    "checks": 18818,
+    "violation_counts": {},
+    "examples": [],
+    "max_errors": {
+      "balance_kw": 2.2737367544323206e-13,
+      "battery_accounting_kwh": 2.2737367544323206e-13,
+      "hydrogen_accounting_kg": 5.684341886080802e-14
+    },
+    "operating_cost_cny": 159426.76671413894,
+    "replacement_cny": 10129.356655723162,
+    "adjusted_cost_cny": 169556.1233698621,
+    "terminal_battery_kwh": 341.54110393133845,
+    "terminal_hydrogen_kg": 82.77278416801373,
+    "tolerance": 1e-05,
+    "stop_inventory_checked": true,
+    "actual_source_checked": true
+  }
+]

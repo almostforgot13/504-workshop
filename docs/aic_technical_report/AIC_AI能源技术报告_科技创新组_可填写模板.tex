@@ -1,0 +1,164 @@
+% !TeX program = xelatex
+% 编译方式：XeLaTeX（建议连续编译两次以更新交叉引用）。
+% 将所有 \fillhint{...} 中的提示替换为正文；图表可按需要插入。
+\documentclass[UTF8,a4paper,zihao=-4]{ctexart}
+
+\usepackage[margin=2.5cm,headheight=25pt]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+
+% 大纲要求：正文小四号宋体、单倍行距；参考文献五号宋体、20 磅行距。
+\setCJKmainfont{SimSun}
+\setmainfont{Times New Roman}
+\setstretch{1.0}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\titleformat{\section}{\normalfont\songti\zihao{-4}}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\songti\zihao{-4}}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.35em}
+\newcommand{\fillhint}[1]{\textcolor{gray}{【#1】}}
+\newcommand{\worktitle}{\fillhint{请填写作品名称}}
+\newcommand{\teamname}{超能陆战队}
+\newcommand{\reportdate}{2026 年 10 月 15 日}
+
+\pagestyle{fancy}
+\fancyhf{}
+% 页眉参照官方模板：左侧 AiC 标志，右侧赛事名称，下方细线。
+% 标志文件 AIC_页眉标志.png 请与本 .tex 放在同一目录。
+\fancyhead[L]{\includegraphics[height=0.62cm]{AIC_页眉标志.png}}
+\fancyhead[R]{\fontsize{9pt}{11pt}\selectfont 第八届全球校园人工智能算法精英大赛·算法主题赛}
+\fancyfoot[C]{{\fangsong\zihao{4} — \thepage\ —}}
+\setlength{\footskip}{11pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+
+% ---------- 封面 ----------
+\thispagestyle{fancy}
+\begin{center}
+
+  \vspace*{0.9cm}
+  {\heiti\zihao{2} 2026 年第八届\par}
+  \vspace{0.15cm}
+  {\heiti\zihao{2} 全球校园人工智能算法精英大赛\par}
+  \vspace{2.25cm}
+  {\heiti\zihao{2} 算法主题赛\par}
+  \vspace{0.12cm}
+  {\heiti\zihao{2} AI+能源\par}
+  \vspace{0.13cm}
+  {\heiti\zihao{2} 技术报告\par}
+  \vspace{3.7cm}
+  \renewcommand{\arraystretch}{2.1}
+  \hspace*{-1.8cm}
+  \begin{tabular}{@{}rl@{}}
+    作品名称： & \worktitle \\
+    赛道组别： & 科技创新组 \\
+    团队名称： & \teamname
+  \end{tabular}
+  \par\vspace{5.35cm}
+  {\zihao{3} 日期：\reportdate\par}
+\end{center}
+\clearpage
+
+% ---------- 摘要 ----------
+{\heiti\fontsize{15pt}{18pt}\selectfont 摘要\par}
+\addcontentsline{toc}{section}{摘要}
+\fillhint{300—500 字。简要概述作品的应用场景、解决的核心问题、采用的关键技术、实现的主要功能及预期效益。写作时请用具体实验结果支撑效益表述。}
+
+\vspace{1em}
+\noindent 关键词：人工智能；能源；\fillhint{关键词3}；\fillhint{关键词4}
+\clearpage
+
+% ---------- 正文 ----------
+\section{项目背景与意义}
+\subsection{能源行业痛点分析}
+在风电、光伏接入的园区能源系统中，用电负荷与可再生能源出力都随时间变化。白天可能出现风光富余，夜间或天气变化时又可能出现供电缺口；若仅依据固定阈值安排设备运行，便难以同时兼顾可再生能源消纳、供电可靠性与储能库存。对于购电功率受限的弱电网场景，预测偏差还可能放大上述矛盾。
+
+电池与氢储能具有不同的功率、容量和转换效率。调度时不仅要决定何时充放电、制氢或由燃料电池发电，还须满足电池荷电状态、储氢量、设备额定功率、最低开机功率及爬坡等约束。当前一步的动作会改变后续可用库存，因此孤立地优化单个时段，容易忽略连续运行和窗口末端的安全接续。本项目以公开电网时序构建虚拟园区场景，用于研究这些问题；该场景不代表某个真实园区的现场实测运行数据。
+
+\subsection{人工智能技术应用价值}
+储能调度需要提前了解未来一段时间的净负荷，即用电负荷减去风电和光伏出力。简单的持续性预测或固定规则可以作为基线，但它们难以充分利用历史序列中的周期特征，也不能直接表达预测的不确定性。为此，本项目使用历史风光荷数据训练净负荷预测模型，按每15分钟一个时段生成未来24小时、共96步的预测，并输出中位数及上下分位数，以分别提供中心预测和不确定性信息。
+
+人工智能模型承担预测任务，设备动作则由满足物理约束的滚动优化方法计算。每次规划未来96步、只执行当前一步，再根据实测值更新电池与氢库存并重新规划。这一组合有望使调度及时适应风光荷变化，也便于检验预测精度和不确定性信息是否真正改善运行结果。预测模型更准确并不必然使调度指标同步改善，相关价值需要在相同设备参数和测试时段下，与规则及简单预测基线进行公平比较。
+
+\subsection{项目目标与意义}
+本项目旨在建立一条从数据处理、净负荷预测到电池—氢储能协同调度与结果校验的完整技术链路。系统以15分钟为时间步长，统一预测、设备状态和调度结果的时间与单位；在满足功率平衡、库存、互斥和爬坡等约束的前提下，比较规则策略、简单预测驱动的优化策略、分位数预测驱动的优化策略及库存备用策略的表现。
+
+项目评价不仅关注预测误差，还关注购电量、客户失负荷电量、总线剩余电量、终端库存、求解状态和约束违例等指标。通过保留逐步结果与校验日志，可以分析预测信息如何影响实际调度，并识别不同策略的适用条件与局限。该工作可为含电池和氢储能的园区能源管理提供可复现的仿真与方法参考；真实部署仍需现场数据、设备参数、价格机制和安全要求的进一步验证。
+
+\section{技术方案与实现}
+\subsection{总体架构设计}
+\fillhint{通过架构图等形式展示作品的整体技术框架与模块组成，并说明数据流和模块接口。}
+
+% 插图示例：将图片放到 .tex 同目录后取消下面的注释。
+% \begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=0.85\textwidth]{architecture.png}
+%   \caption{系统总体架构}
+%   \label{fig:architecture}
+% \end{figure}
+
+\subsection{核心算法与模型}
+\fillhint{详细介绍采用的人工智能算法、模型结构、训练过程及优化策略；区分预测模型与调度优化器。}
+
+\subsection{数据处理与分析}
+\fillhint{说明数据来源、预处理、特征工程、训练/验证/测试划分及数据集构建情况。}
+
+\subsection{系统功能实现}
+\fillhint{分模块描述系统功能，可配流程图和界面截图。}
+
+\section{实验结果与分析}
+\subsection{实验环境与设置}
+\fillhint{说明硬件、软件版本、时间步长、设备参数、测试时段、对照策略与求解设置。}
+
+\subsection{评价指标}
+\fillhint{列出适合本项目的预测误差、区间覆盖率、失负荷电量、购电量、约束违例、求解时间等指标，并给出定义。}
+
+\subsection{结果展示与分析}
+\fillhint{用表格或图展示结果，比较不同策略；说明终端库存、回退、求解状态和实验局限。}
+
+% 表格示例：按真实实验结果填写，勿把示例结构当成结果。
+% \begin{table}[htbp]
+%   \centering
+%   \caption{不同策略的实验结果}
+%   \begin{tabular}{lrrr}
+%     \toprule
+%     策略 & 购电量/kWh & 失负荷电量/kWh & 终态电池/kWh \\
+%     \midrule
+%     规则策略 &  &  &  \\
+%     预测+优化 &  &  &  \\
+%     \bottomrule
+%   \end{tabular}
+% \end{table}
+
+\section{创新点与应用前景}
+\subsection{主要创新点}
+\fillhint{总结有实验或实现证据支持的技术、方法或应用创新。}
+
+\subsection{应用前景与预期效益}
+\fillhint{分析潜在应用场景、推广条件、经济或社会效益；区分实测成果与预期。}
+
+\section{结论}
+\fillhint{总结研究问题、实现方法、主要结果与局限，并展望后续改进方向。}
+
+\section*{参考文献}
+\addcontentsline{toc}{section}{参考文献}
+{\zihao{5}\fontsize{10.5pt}{20pt}\selectfont
+\noindent\fillhint{按实际引用顺序列出必要文献。示例：[1] 作者. 题名[J]. 刊名, 年, 卷(期): 页码。}\par
+}
+
+\section*{附录}
+\addcontentsline{toc}{section}{附录}
+\fillhint{可放核心代码片段、部署说明、详细数据表及补充实验。}
+
+\end{document}

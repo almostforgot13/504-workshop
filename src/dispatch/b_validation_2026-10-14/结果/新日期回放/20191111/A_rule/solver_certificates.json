@@ -1,0 +1,578 @@
+[
+  {
+    "status": 0,
+    "objective": 30.898943987500008,
+    "dual_bound": 30.898943987500047,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1.6037303499999929,
+    "dual_bound": 1.6037303499999929,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 2.1237633750000002,
+    "dual_bound": 2.123763375000042,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 2.419796535,
+    "dual_bound": 2.419796534999932,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 2.3859935,
+    "dual_bound": 2.385993499999813,
+    "gap": 9.529517806449523e-14
+  },
+  {
+    "status": 0,
+    "objective": 2.613081363528845,
+    "dual_bound": 2.613081363528835,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1.8755443994645142,
+    "dual_bound": 1.875544399464514,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1.6489393994645143,
+    "dual_bound": 1.6489393994645143,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.7019783885834147,
+    "dual_bound": 0.7019783885834147,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.5972290487499999,
+    "dual_bound": 0.5972290487499999,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.60498021125,
+    "dual_bound": 0.60498021125,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.61866361125,
+    "dual_bound": 0.61866361125,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1.2694929266185646,
+    "dual_bound": 1.2694929266185646,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1.4579261516186022,
+    "dual_bound": 1.4579261516186022,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 3.1569469391188933,
+    "dual_bound": 3.1569469391188933,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 4.8485425016189,
+    "dual_bound": 4.8485425016189,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 9.213930626618913,
+    "dual_bound": 9.213930626618913,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 10.494218539118894,
+    "dual_bound": 10.494218539118894,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 10.83371260161928,
+    "dual_bound": 10.83371260161928,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 11.709387851618908,
+    "dual_bound": 11.709387851618908,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 15.617846201618894,
+    "dual_bound": 15.617846201618894,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 20.392865614118907,
+    "dual_bound": 20.392865614118907,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 23.851714114118906,
+    "dual_bound": 23.851714114118906,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 26.264471126618883,
+    "dual_bound": 26.264471126618883,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 52.829220002892185,
+    "dual_bound": 52.829220002892185,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 55.6148748028922,
+    "dual_bound": 55.6148748028922,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 54.2275786028918,
+    "dual_bound": 54.2275786028918,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 52.15607280289183,
+    "dual_bound": 52.15607280289183,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 46.54467180289221,
+    "dual_bound": 46.54467180289221,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 39.26498140289216,
+    "dual_bound": 39.26498140289216,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 35.01822260289219,
+    "dual_bound": 35.01822260289219,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 26.57276200289366,
+    "dual_bound": 26.57276200289366,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 17.372214002891997,
+    "dual_bound": 17.372214002891997,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 11.964943002892188,
+    "dual_bound": 11.964943002892188,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 4.753939602892205,
+    "dual_bound": 4.753939602892205,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.6102428475000001,
+    "dual_bound": 0.6102428475000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.5618331437499999,
+    "dual_bound": 0.5618331437499999,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.5218290687500001,
+    "dual_bound": 0.5218290687500001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.48450404999999996,
+    "dual_bound": 0.48450404999999996,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.43440864499999976,
+    "dual_bound": 0.43440864499999976,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 0.400075115,
+    "dual_bound": 0.400075115,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 29.355650912782334,
+    "dual_bound": 29.355650912782334,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 62.37698651278233,
+    "dual_bound": 62.37698651278233,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 75.28619219999997,
+    "dual_bound": 75.28619219999996,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 66.14940720000003,
+    "dual_bound": 66.14940720000004,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 65.48913869999997,
+    "dual_bound": 65.48913870000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 67.25691899999998,
+    "dual_bound": 67.25691899999993,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 62.914102499999956,
+    "dual_bound": 62.91410250000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 46.052829599999995,
+    "dual_bound": 46.052829599999995,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 49.05734659999999,
+    "dual_bound": 49.05734659999996,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 52.3509268,
+    "dual_bound": 52.350926800000025,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 56.52644459999999,
+    "dual_bound": 56.52644459999999,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 62.646335,
+    "dual_bound": 62.64633500000002,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 70.63364320000001,
+    "dual_bound": 70.63364320000005,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 78.47360040000004,
+    "dual_bound": 78.47360040000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 86.63574260000001,
+    "dual_bound": 86.63574259999996,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 94.0737694,
+    "dual_bound": 94.07376939999995,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 99.33732780000001,
+    "dual_bound": 99.33732779999991,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 531.6878750000029,
+    "dual_bound": 531.6878750000029,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 872.1736250000021,
+    "dual_bound": 872.1736250000021,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 1118.9786749999967,
+    "dual_bound": 1118.9786749999967,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 771.4279000000033,
+    "dual_bound": 771.4279000000033,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 410.9089499999982,
+    "dual_bound": 410.9089499999982,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 463.4379249999995,
+    "dual_bound": 463.4379249999995,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 697.7850999999987,
+    "dual_bound": 697.7850999999987,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 490.2903999999978,
+    "dual_bound": 490.2903999999978,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 323.31692500000315,
+    "dual_bound": 323.31692500000315,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 98.511322,
+    "dual_bound": 98.51132200000006,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 145.2795801,
+    "dual_bound": 145.27958009999998,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 141.89206259999997,
+    "dual_bound": 141.89206259999992,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 142.2597048,
+    "dual_bound": 142.2597048,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 141.1428189,
+    "dual_bound": 141.14281890000007,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 138.86074019999998,
+    "dual_bound": 138.8607402,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 132.0233583,
+    "dual_bound": 132.02335829999993,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 131.1848211,
+    "dual_bound": 131.1848210999999,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 128.57789579999996,
+    "dual_bound": 128.57789580000008,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 117.10008899999998,
+    "dual_bound": 117.10008900000003,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 110.05848780000004,
+    "dual_bound": 110.05848779999997,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 106.31427180000003,
+    "dual_bound": 106.31427180000003,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 101.98811550000002,
+    "dual_bound": 101.98811550000005,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 62.14793779999998,
+    "dual_bound": 62.14793780000002,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 60.79881719999999,
+    "dual_bound": 60.79881720000003,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 59.204408599999994,
+    "dual_bound": 59.204408599999965,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 57.56121919999998,
+    "dual_bound": 57.56121919999998,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 58.61818840000001,
+    "dual_bound": 58.61818840000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 56.05682940000002,
+    "dual_bound": 56.05682939999997,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 53.2976946,
+    "dual_bound": 53.2976946,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 52.24573519999999,
+    "dual_bound": 52.24573520000001,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 52.115821600000004,
+    "dual_bound": 52.115821600000004,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 46.08320460000002,
+    "dual_bound": 46.083204600000045,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 42.967211,
+    "dual_bound": 42.96721100000002,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 40.928702,
+    "dual_bound": 40.928702000000044,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 19.86222960000001,
+    "dual_bound": 19.862229600000035,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 17.530161412500004,
+    "dual_bound": 17.53016141249998,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 16.6560535125,
+    "dual_bound": 16.656053512500023,
+    "gap": 0.0
+  },
+  {
+    "status": 0,
+    "objective": 16.33802197500001,
+    "dual_bound": 16.338021975000004,
+    "gap": 0.0
+  }
+]
